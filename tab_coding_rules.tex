@@ -1,0 +1,19 @@
+\begin{table}[htbp!]
+\centering
+\footnotesize
+\caption{Coding rules for the derived extraction variables. Each rule is implemented verbatim in \texttt{code/build\_wave1.py} and applied identically to every source, so that any reader can reproduce the coding from the reported method. The fourth column states whether the variable is mutually exclusive or multi-label and which denominator it uses.}
+\label{tab:coding_rules}
+\begin{tabular}{@{}p{0.7cm}p{3.0cm}p{8.0cm}p{3.6cm}@{}}
+\toprule
+\textbf{Rule} & \textbf{Variable} & \textbf{Definition as implemented} & \textbf{Exclusivity and denominator} \\
+\midrule
+R1 & Method family (multi-label) & Six binary flags set by matching the reported method string against fixed keyword lists: statistical/time series; classical machine learning; deep learning/neural; knowledge-based (case- and rule-based reasoning, fuzzy, rough and grey systems); optimisation/simulation; generative AI/LLM. A study may score on several flags. & Multi-label. Percentages use $N_{\mathrm{prim}}$ and sum to more than 100\%. \\[3pt]
+R2 & Functional form & \emph{Linear} if only statistical families are present; \emph{Combined} if a statistical family co-occurs with a machine-learning, deep-learning or generative family; \emph{Non-linear} otherwise. & Mutually exclusive. Studies with no identifiable method are excluded from the denominator. \\[3pt]
+R3 & Uncertainty represented & Set to 1 where the reported method explicitly represents uncertainty: probabilistic or Bayesian formulations, stochastic programming, fuzzy, rough or grey systems, interval, scenario-based, robust or Monte-Carlo treatments. & Binary; denominator $N_{\mathrm{prim}}$. \\[3pt]
+R4 & Sustainability or equity framing & Set to 1 only where an environmental, social-equity or resilience objective is explicitly stated in the study's objective, method or outlet scope. A deliberately strict rule. & Binary; denominator $N_{\mathrm{prim}}$. Deliberately conservative; see Section~\ref{sec:limitations}. \\[3pt]
+R5 & Performance evidence & \emph{Comparative benchmark} where two or more competing models are compared on a common dataset with a reported error or accuracy metric; \emph{Single-model metric} where one model and a quantitative metric are reported; \emph{Qualitative/none} where the source makes no quantitative performance claim; \emph{Not reported} where no figure could be extracted from the retrievable record. & Mutually exclusive. ``Not reported'' is a statement about the retrievable record, not about the method. \\[3pt]
+R6 & Deployment status & \emph{Operational deployment} only where a named responding organisation is documented as using the system in practice; \emph{Real-data case study} where a named real event or region is analysed; \emph{Synthetic/illustrative} where only a numerical example is given. & Mutually exclusive; conservative by construction. \\[3pt]
+\bottomrule
+\end{tabular}
+\normalsize
+\end{table}
