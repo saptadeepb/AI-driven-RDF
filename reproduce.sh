@@ -10,6 +10,7 @@ python3 code/search_harmonisation.py > /dev/null
 python3 code/americanize.py supplementary/S5_harmonised_search.md > /dev/null
 python3 code/practitioner_examples.py > /dev/null
 python3 code/llm_compare.py > /dev/null
+python3 code/s4_results.py > /dev/null
 echo "4/5  figures";                    python3 code/make_figures.py > /dev/null
 echo "5/5  tables and Excel export";    python3 code/make_tables.py > /dev/null
 python3 code/americanize.py tables/tab_*.tex > /dev/null

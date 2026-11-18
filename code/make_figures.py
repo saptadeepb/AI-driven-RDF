@@ -726,7 +726,7 @@ def fig15_method_over_time():
 def fig16_graphical_abstract():
     """Schematic graphical abstract (no numerical values, by house style):
     a funnel from research attention to comparative evidence to fielded
-    deployment, flanked by the review's two methodological novelties.
+    deployment, flanked by the open dataset and the rule-based grading of evidence.
     Canvas aspect 2.6:1, as in the publisher's graphical-abstract guide."""
     from matplotlib.patches import Polygon, Ellipse, FancyBboxPatch, Rectangle
     fig, ax = plt.subplots(figsize=(10.4, 4.0))
@@ -760,17 +760,16 @@ def fig16_graphical_abstract():
         ax.plot([0.118, 0.158], [0.52 + ln * 0.019] * 2, color=CAT[0], lw=0.8)
     ax.text(0.135, 0.38, 'Open, traceable\ndataset', ha='center',
             va='center', fontsize=9, color=INK2, linespacing=1.4)
-    # right icon: protocol versus language model
-    ax.add_patch(Ellipse((0.865, 0.575), 0.06, 0.155, fc='white', ec=CAT[5],
-                         lw=1.2))
-    ax.text(0.865, 0.575, 'LLM', ha='center', va='center', fontsize=9.5,
-            weight='bold', color=CAT[5])
-    ax.add_patch(FancyBboxPatch((0.835, 0.445), 0.06, 0.045,
-                                boxstyle='round,pad=0.004', fc=CAT[0],
-                                ec='none'))
-    ax.text(0.865, 0.4675, 'PRISMA', ha='center', va='center', fontsize=7.5,
-            color='white', weight='bold')
-    ax.text(0.865, 0.38, 'Protocol tested\nagainst an LLM', ha='center',
+    # right icon: checklist (evidence graded by stated rules)
+    ax.add_patch(FancyBboxPatch((0.835, 0.47), 0.06, 0.17,
+                                boxstyle='round,pad=0.006', fc='white',
+                                ec=CAT[5], lw=1.2))
+    for q in range(3):
+        yy = 0.605 - q * 0.05
+        ax.plot([0.845, 0.852, 0.862], [yy, yy - 0.015, yy + 0.015],
+                color=CAT[5], lw=1.4)
+        ax.plot([0.868, 0.888], [yy] * 2, color=CAT[5], lw=0.9)
+    ax.text(0.865, 0.38, 'Evidence graded\nby stated rules', ha='center',
             va='center', fontsize=9, color=INK2, linespacing=1.4)
     ax.text(0.5, 0.05, 'Barriers are drawn only from the fielded systems: '
             'outcome data, the warning-to-action link and extreme events',

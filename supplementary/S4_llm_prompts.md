@@ -1,4 +1,4 @@
-# Supplementary Material S4: LLM comparison protocol and prompts
+# Supplementary Material S4: LLM comparison (protocol, prompts and results)
 
 *Artificial Intelligence for Relief Demand Forecasting: A PRISMA-ScR Scoping Review of Research Attention and Efficacy Evidence*
 
@@ -140,3 +140,27 @@ Arm A: number of studies listed; citation existence rate (a listed study counts 
 Arm C: per-variable percentage agreement and Cohen's kappa against the human coding; for categorical variables, the share of "not reported" answers and of definite answers that disagree with the human code; run-to-run agreement (Fleiss' kappa across the three runs). Abstract-only coding by the model is compared with human coding that may have used the full text; this asymmetry is reported, not corrected.
 
 Matching rule for Arm A: a listed study matches an included source when the normalized titles (lower case, punctuation removed) have a token-set similarity of at least 0.85, or the DOIs are identical. Borderline matches (0.70 to 0.85) are adjudicated manually and logged.
+
+## 6. Results
+
+The model was Claude Opus 5.5 (Anthropic), accessed on 17 November 2026 through an agent session whose sampling temperature is not user-controllable. Each run used a fresh session that received only the prompt and had no access to the released dataset, the manuscript or any search or file tool. Arm A was run three times; Arms B and C were not run, because they require the complete record export and the abstracts as inputs. Arm A is scored against the 110 sources included in the review.
+
+**Arm A.** Across three runs the model listed between 80 and 115 studies, of which 8 to 11 were among the included sources, a recall of 7 to 10%. No run recovered any of the 35 included sources published from 2024 onwards (32% of the corpus), and the most recent included source recovered dates from 2023. The matched sources overlapped only partly between runs (mean Jaccard index 0.54). The model described a quarter or more of its listed studies as benchmarking against a competing model, and about one in six as operationally deployed, against 12.5% and 3.1% of the primary studies charted in the review. A random sample of 45 of the 268 listed studies that are not in the corpus (seed 20261117) was checked against bibliographic records, and all 45 exist; they are released as candidate records for any future update of the review.
+
+| Measure | Run 1 | Run 2 | Run 3 | This review |
+|:------------------------------------------------------------|------------:|------------:|------------:|--------------:|
+| Studies listed | 115 | 100 | 80 | 110 |
+| Matched to an included source | 11 | 8 | 8 |  |
+| Precision against the included sources | 10% | 8% | 10% |  |
+| Recall of the included sources | 10% | 7% | 7% |  |
+| Recall, sources published before 2024 | 15% | 11% | 11% |  |
+| Recall, sources published 2024 to 2026 | 0% | 0% | 0% |  |
+| Most recent included source recovered | 2022 | 2023 | 2022 |  |
+| Listed studies coded as comparative benchmark | 32% | 27% | 26% | 12% |
+| Listed studies coded as operationally deployed | 14% | 17% | 16% | 3% |
+| Listed studies using knowledge-based methods | 6% | 6% | 9% | 21% |
+| Listed studies using generative AI | 0% | 2% | 0% | 4% |
+| Mean pairwise overlap of matched sources (Jaccard) | 0.54 |  |  |  |
+| Sampled unmatched listed studies that exist | 45 of 45 |  |  |  |
+
+**Interpretation.** A model asked to stand in for the search returns a list that is not reproducible between runs, misses most of the literature and all of its most recent part, and describes its listed studies as more often benchmarked and deployed than the charted corpus. Fabricated references did not occur in the sample checked. None of these weaknesses is visible in the model's output itself; each was revealed only by comparison with the protocol-driven review, which is the sense in which PRISMA-ScR and LLM assistance are complements.

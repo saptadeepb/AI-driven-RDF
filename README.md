@@ -17,10 +17,10 @@ Every statistic, figure and table that describes the corpus of 110 included sour
 | `data/deployment_cases.csv` | Charting of the field-validated studies (Tables 6 and 7) |
 | `data/search_*`, `data/screening_log_R2.csv` | Search-string coverage audit and the harmonized search strategy, with blank logs for a future update |
 | `data/reference_audit_R2.csv`, `data/reference_corrections_R2.csv` | Audit of every cited reference and the corrections made |
-| `data/llm_comparison/` | Raw outputs, adjudication and scoring of the pre-specified LLM comparison (Appendix A) |
+| `data/llm_comparison/` | Raw outputs, adjudication and scoring of the pre-specified LLM comparison (Supplementary S4) |
 | `code/` | The pipeline (see below) |
 | `figures/`, `tables/`, `stats_macros.tex`, `period_macros.tex` | Generated outputs, as used in the article |
-| `supplementary/` | S1 PRISMA-ScR checklist, S2 practitioner guide, S3 benchmark task card (JSON Schema), S4 LLM comparison protocol and prompts, S5 harmonized search strategy |
+| `supplementary/` | S1 PRISMA-ScR checklist, S2 practitioner guide, S3 benchmark task card (JSON Schema), S4 LLM comparison (protocol, prompts and results), S5 harmonized search strategy |
 
 ## Reproducing the results
 
