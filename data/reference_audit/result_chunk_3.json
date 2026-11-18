@@ -1,0 +1,356 @@
+[
+  {
+    "key": "Karimiziarani2023SocialIan",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number). Note: title capitalisation is irregular ('Disaster management', 'twitter', 'Assimilation') and is locked by double braces; check against publisher title."
+  },
+  {
+    "key": "Kees2022AChain",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/soceps/v84y2022ics0038012122001367.html",
+    "comment": "Authors, title, journal, year, volume 84, DOI match RePEc record; article number 101346 consistent with DOI."
+  },
+  {
+    "key": "Kersting2025AnticipatoryActionREA",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "note",
+        "old": "Grey literature; not peer reviewed. Distributed via the Anticipation Hub",
+        "new": "(delete field)"
+      }
+    ],
+    "source_url": "",
+    "comment": "The note field is annotation text that will print in the reference list (exactly the reviewer's complaint); remove it. Title/author/institution/date could not be verified (report URL not fetchable, search budget exhausted)."
+  },
+  {
+    "key": "Khatua2021ArtificialForward",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Kirbas2020ComparativeApproaches",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Kita2025IndigenousKnowledgeWarnings",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2025",
+        "new": "2026"
+      }
+    ],
+    "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/disa.70028",
+    "comment": "Wiley Online Library lists the article as 'Kita - 2026 - Disasters' (vol 50 issue 1 is the 2026 volume). Title, author, journal, DOI match. Article number e70028 follows Wiley's DOI-suffix pattern but the page itself could not be opened. Key name retains '2025'."
+  },
+  {
+    "key": "Kjaerum2025DisplacementAnticipatory",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "e8"
+      }
+    ],
+    "source_url": "https://www.cambridge.org/core/journals/data-and-policy/article/pushing-the-boundaries-of-anticipatory-action-using-machine-learning/5CA9D6358F29AE35C886B92492CFFF65",
+    "comment": "Cambridge Core: Kjærum & Madsen, Data & Policy 7, e8 (2025), doi 10.1017/dap.2024.88. Article number was missing."
+  },
+  {
+    "key": "Kong2026GreyEmergencyMaterial",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record of this title or DOI (10.1108/GS-08-2025-0106) found in searches of Emerald / Grey Systems: Theory and Application or elsewhere. Existence, authors and DOI could not be confirmed; verify directly via doi.org before resubmission."
+  },
+  {
+    "key": "Kox2025PerceptionsAIWeatherWarning",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2212420925006417",
+    "comment": "All fields match ScienceDirect (IJDRR 130, 105817, 2025)."
+  },
+  {
+    "key": "Kumar2013BeforeFramework",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Kumar2022ApplicationApproach",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Kundu2022EmergencyResearch",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number). Title contains an em dash (---); this is the published title's punctuation and should be kept for a cited work."
+  },
+  {
+    "key": "Kundu2026ReliefFloodPrediction",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.tandfonline.com/doi/abs/10.1080/01605682.2026.2671237",
+    "comment": "Title and DOI confirmed on Taylor & Francis as JORS 'Vol 0, No 0' (online first; no volume/pages yet). Author names could not be seen (page fetch failed); recheck before final proofs and add volume/pages if assigned."
+  },
+  {
+    "key": "Liang2022Time-VaryingReasoning",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "3617--3632"
+      }
+    ],
+    "source_url": "https://searchworks.jioinstitute.edu.in/articles/edsair__edsair.doi...........8a2e84a21c95c43730d7f8292f757c00",
+    "comment": "Library record (OpenAIRE) gives IEEE TFS 30 (2022) 3617-3632, doi 10.1109/TFUZZ.2021.3119427. Page range was missing. Issue 9 not independently confirmed."
+  },
+  {
+    "key": "Liden2025EthicsDigitalDataGovernance",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2025",
+        "new": "2026"
+      }
+    ],
+    "source_url": "https://onlinelibrary.wiley.com/doi/abs/10.1111/disa.70018",
+    "comment": "Wiley lists 'Lidén - 2026 - Disasters' (vol 50 issue 1). PRIO record (https://www.prio.org/publications/14562) gives 2025 (online date) with 50(1); the volume/issue year is 2026. Article number e70018 not shown on either page. Key retains '2025'."
+  },
+  {
+    "key": "Lin2020ADisaster",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Liu2024FloodDamageCastNowcasting",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S2212420924007337",
+    "comment": "Matches ScienceDirect: IJDRR 114 (2024) 104971. Peer-reviewed version of arXiv:2405.14232, correctly cited as journal article."
+  },
+  {
+    "key": "Luo2023RecursivePerception",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Mandefro2026HarnessingAI",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "note",
+        "old": "Grey literature; not peer reviewed. Indexed in the ALNAP HELP Library",
+        "new": "(delete field)"
+      }
+    ],
+    "source_url": "",
+    "comment": "The note field is annotation text that will print in the reference list; remove it. Author/institution/year could not be verified (ALNAP page not fetchable, search budget exhausted)."
+  },
+  {
+    "key": "Masoomi2026UnfoldingAIStrategic",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0925527325003652",
+    "comment": "Matches ScienceDirect: IJPE 294 (April 2026) 109880."
+  },
+  {
+    "key": "Mediavilla2022ReviewManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number). Procedia CIRP is a journal-style serial; @inproceedings with booktitle is acceptable, but consider @article with journal for consistency with other Procedia entries."
+  },
+  {
+    "key": "Mohammadi2014ASeries",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Mota-Santiago2023DeterminationCountriesc",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Murtas2022Time-seriesSystem",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Nair2017EstimatingOperations",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Nair2023ExplainableHumanitarianNeeds",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://onlinelibrary.wiley.com/doi/full/10.1002/aaai.12133",
+    "comment": "Wiley search result confirms Nair et al., 2023, AI Magazine, doi 10.1002/aaai.12133; same search surfaced the AI Magazine 44(4) 'Innovative Applications of AI' issue, so number={4} is probably missing, but issue and pages 354-362 could not be confirmed (Wiley page not fetchable). Related AAAI-23 conference version exists (https://ojs.aaai.org/index.php/AAAI/article/view/26846)."
+  },
+  {
+    "key": "Negi2024BlockchainFinancialFlows",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2024",
+        "new": "2025"
+      }
+    ],
+    "source_url": "https://www.emerald.com/jhlscm/article/15/2/154/1247161/A-blockchain-technology-for-improving-financial",
+    "comment": "Emerald: JHLSCM 15(2) 154-174, issue dated 21 April 2025 (online 31 May 2024). Volume/issue/pages belong to 2025. Key retains '2024'."
+  },
+  {
+    "key": "Nguyen2022ForecastingNetwork",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Nguyen2026MachineLearningHumanitarian",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.emerald.com/jhlscm/article/doi/10.1108/JHLSCM-02-2026-0045/1392452/Machine-learning-in-humanitarian-logistics-and",
+    "comment": "Authors, title, journal, DOI match; ahead-of-print (published 18 Aug 2026), no volume/issue yet."
+  },
+  {
+    "key": "Nikseresht2025BloodDemandEnsemble",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://collaborate.umb.edu/en/publications/a-hybrid-ensemble-learning-framework-for-blood-demand-forecasting-2/",
+    "comment": "Authors, title, journal, DOI match; in press / online first, no volume/pages listed."
+  },
+  {
+    "key": "Nsanzimana2017PhasedAll",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "number",
+        "old": "(missing)",
+        "new": "Suppl 4"
+      }
+    ],
+    "source_url": "https://experts.mcmaster.ca/display/publication1432429",
+    "comment": "McMaster and Basel (https://edoc.unibas.ch/55886) records: JIAS 20 (Suppl 4), 2017, doi 10.7448/IAS.20.5.21635. 21635 is the article ID (Basel also lists pp. 21-27 within the supplement). Authors and order match."
+  },
+  {
+    "key": "Obeng2026GoverningWarningChain",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Obeng, Joseph and ...",
+        "new": "Obeng, Jr., Joseph and ..."
+      }
+    ],
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2590061726001365",
+    "comment": "ScienceDirect lists the first author as 'Joseph Obeng Jr.'; the rest (co-authors, Progress in Disaster Science 31, 100650, 2026, DOI) matches. Optional: the suffix is minor."
+  },
+  {
+    "key": "Ordu2019AServices",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "e1257--e1271"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/bla/ijhplm/v34y2019i2pe1257-e1271.html",
+    "comment": "RePEc record: Int J Health Plann Manage 34(2), 2019, pp. e1257-e1271, doi 10.1002/hpm.2771. Page range was missing."
+  },
+  {
+    "key": "Pacheco2016Forecast-drivenHurricane",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Park2022TheJapan",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Paul2022AnBehavior",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number). Check pages: '1--29' looks like online-first pagination; the issue pagination of AOR 319(1) may differ (Kumar2022 in the same issue has 379--411)."
+  },
+  {
+    "key": "Perez2023AnalysisDisasters",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Pitakaso2024Optimization-drivenManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Powers2023UsingApproach",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Quiliche2023ColdWaveRiskML",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Rajesh2019Grey-India",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  },
+  {
+    "key": "Rajput2020TemporalHouston",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an external record: web search budget for this session was exhausted before this entry was reached. Fields left unchanged. Internal consistency looks plausible (DOI pattern matches journal/article number)."
+  }
+]

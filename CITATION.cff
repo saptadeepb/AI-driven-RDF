@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the article and this repository."
+title: "AI-driven relief demand forecasting: master extraction dataset and code"
+version: "2.0"
+repository-code: "https://github.com/saptadeepb/AI-driven-RDF"
+license: "MIT"
+authors:
+  - family-names: Biswas
+    given-names: Saptadeep
+    orcid: "https://orcid.org/0000-0002-2092-5487"
+  - family-names: Kumar
+    given-names: Dhruv
+  - family-names: Hajiaghaei-Keshteli
+    given-names: Mostafa
+  - family-names: Simic
+    given-names: Vladimir
+  - family-names: Pamucar
+    given-names: Dragan
+  - family-names: Bera
+    given-names: Uttam Kumar
+preferred-citation:
+  type: article
+  title: "Artificial Intelligence for Relief Demand Forecasting: A PRISMA-ScR Scoping Review of Research Attention and Efficacy Evidence"
+  journal: "Systems and Soft Computing"
+  authors:
+    - family-names: Biswas
+      given-names: Saptadeep
+    - family-names: Kumar
+      given-names: Dhruv
+    - family-names: Hajiaghaei-Keshteli
+      given-names: Mostafa
+    - family-names: Simic
+      given-names: Vladimir
+    - family-names: Pamucar
+      given-names: Dragan
+    - family-names: Bera
+      given-names: Uttam Kumar

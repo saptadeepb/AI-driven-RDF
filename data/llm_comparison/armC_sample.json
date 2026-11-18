@@ -1,0 +1,242 @@
+[
+ {
+  "record_id": "S002",
+  "authors": "Sheu, Jiuh-Biing",
+  "year": "2007",
+  "title": "An emergency logistics distribution approach for quick response to urgent relief demand in disasters",
+  "venue": "Transportation Research Part E: Logistics and Transportation Review",
+  "doi": "10.1016/j.tre.2006.04.004"
+ },
+ {
+  "record_id": "S004",
+  "authors": "Xu, Xiaoyan and Qi, Yuqing and Hua, Zhongsheng",
+  "year": "2010",
+  "title": "Forecasting demand of commodities after natural disasters",
+  "venue": "Expert Systems with Applications",
+  "doi": "10.1016/j.eswa.2009.11.069"
+ },
+ {
+  "record_id": "S008",
+  "authors": "Davis, Lauren B. and Samanlioglu, Funda and Qu, Xiuli and Root, Sarah",
+  "year": "2013",
+  "title": "Inventory planning and coordination in disaster relief efforts",
+  "venue": "International Journal of Production Economics",
+  "doi": "10.1016/j.ijpe.2012.09.012"
+ },
+ {
+  "record_id": "S016",
+  "authors": "Nair, Divya J. and Rashidi, Taha Hossein and Dixit, Vinayak V.",
+  "year": "2017",
+  "title": "Estimating surplus food supply for food rescue and delivery operations",
+  "venue": "Socio-Economic Planning Sciences",
+  "doi": "10.1016/j.seps.2016.09.004"
+ },
+ {
+  "record_id": "S017",
+  "authors": "Sebatli, Asli and Cavdur, Fatih and Kose-Kucuk, Merve",
+  "year": "2017",
+  "title": "Determination of relief supplies demands and allocation of temporary disaster response facilities",
+  "venue": "Transportation Research Procedia",
+  "doi": "10.1016/j.trpro.2017.03.031"
+ },
+ {
+  "record_id": "S018",
+  "authors": "Nsanzimana, Sabin and Remera, Eric and Ribakare, Muhayimpundu and Burns, Tracy and Dludlu, Sibongile and Mills, Edward J and Condo, Jeanine and Bucher, Heiner C and Ford, Nathan",
+  "year": "2017",
+  "title": "Phased implementation of spaced clinic visits for stable HIV-positive patients in Rwanda to support Treat All",
+  "venue": "Journal of the International AIDS Society",
+  "doi": "10.7448/IAS.20.5.21635"
+ },
+ {
+  "record_id": "S019",
+  "authors": "Habiyambere, V. and Dongmo Nguimfack, B. and Vojnov, L. and Ford, N. and Stover, J. and Hasek, L. and Maggiore, P. and Low-Beer, D. and P\\'erez Gonz\\`alez, M. and Edgil, D. and Williams, J. and Kuritsky, J. and Hargreaves, S. and NeSmith, T.",
+  "year": "2018",
+  "title": "Forecasting the global demand for HIV monitoring and diagnostic tests: A 2016-2021 analysis",
+  "venue": "PLOS ONE",
+  "doi": "10.1371/journal.pone.0201341"
+ },
+ {
+  "record_id": "S022",
+  "authors": "Basu, Souvik and Roy, Siuli and Dasbit, Sipra",
+  "year": "2019",
+  "title": "A post-disaster demand forecasting system using principal component regression analysis and case-based reasoning over smartphone-based DTN",
+  "venue": "IEEE Transactions on Engineering Management",
+  "doi": "10.1109/TEM.2018.2794146"
+ },
+ {
+  "record_id": "S023",
+  "authors": "Basu, Moumita and Shandilya, Anurag and Khosla, Prannay and Ghosh, Kripabandhu and Ghosh, Saptarshi",
+  "year": "2019",
+  "title": "Extracting Resource Needs and Availabilities From Microblogs for Aiding Post-Disaster Relief Operations",
+  "venue": "IEEE Transactions on Computational Social Systems",
+  "doi": "10.1109/TCSS.2019.2914179"
+ },
+ {
+  "record_id": "S025",
+  "authors": "Tilahun, Fitsum Bekele and Bhandari, Ramchandara and Mamo, Mengesha",
+  "year": "2019",
+  "title": "Supply optimization based on society's cost of electricity and a calibrated demand model for future renewable energy transition in Niger",
+  "venue": "Energy, Sustainability and Society",
+  "doi": "10.1186/s13705-019-0217-0"
+ },
+ {
+  "record_id": "S026",
+  "authors": "Rajesh, R. and Rajendran, Chandrasekharan",
+  "year": "2019",
+  "title": "Grey- and rough-set-based seasonal disaster predictions: an analysis of flood data in India",
+  "venue": "Natural Hazards",
+  "doi": "10.1007/s11069-019-03651-y"
+ },
+ {
+  "record_id": "S028",
+  "authors": "Shao, Jianfang and Liang, Changyong and Wang, Xihui and Wang, Xiang and Liang, Liang",
+  "year": "2020",
+  "title": "Relief demand calculation in humanitarian logistics using material classification",
+  "venue": "International Journal of Environmental Research and Public Health",
+  "doi": "10.3390/ijerph17020582"
+ },
+ {
+  "record_id": "S030",
+  "authors": "Lin, Anqi and Wu, Hao and Liang, Guanghua and Cardenas-Tristan, Abraham and Wu, Xia and Zhao, Chong and Li, Dan",
+  "year": "2020",
+  "title": "A big data-driven dynamic estimation model of relief supplies demand in urban flood disaster",
+  "venue": "International Journal of Disaster Risk Reduction",
+  "doi": "10.1016/j.ijdrr.2020.101682"
+ },
+ {
+  "record_id": "S031",
+  "authors": "Kirbas, Ismail and Sozen, Adnan and Tuncer, Azim Dogus and Kazancioglu, Fikret Sinasi",
+  "year": "2020",
+  "title": "Comparative analysis and forecasting of COVID-19 cases in various European countries with ARIMA, NARNN and LSTM approaches",
+  "venue": "Chaos, Solitons \\& Fractals",
+  "doi": "10.1016/j.chaos.2020.110015"
+ },
+ {
+  "record_id": "S037",
+  "authors": "Jiang-ning, Li and Xian-liang, Shi and An-qiang, Huang and Ze-fang, He and Yu-xuan, Kang and Dong, Li",
+  "year": "2021",
+  "title": "Forecasting emergency medicine reserve demand with a novel decomposition-ensemble methodology",
+  "venue": "Complex \\& Intelligent Systems",
+  "doi": "10.1007/s40747-021-00289-x"
+ },
+ {
+  "record_id": "S038",
+  "authors": "Vollmer, Michaela A.C. and Glampson, Ben and Mellan, Thomas and Mishra, Swapnil and Mercuri, Luca and Costello, Ceire and Klaber, Robert and Cooke, Graham and Flaxman, Seth and Bhatt, Samir",
+  "year": "2021",
+  "title": "A unified machine learning approach to time series forecasting applied to demand at emergency departments",
+  "venue": "BMC Emergency Medicine",
+  "doi": "10.1186/s12873-020-00395-y"
+ },
+ {
+  "record_id": "S039",
+  "authors": "Murtas, Rossella and Tunesi, Sara and Andreano, Anita and Russo, Antonio Giampiero",
+  "year": "2022",
+  "title": "Time-series cohort study to forecast emergency department visits in the city of Milan and predict high demand: a 2-day warning system",
+  "venue": "BMJ Open",
+  "doi": "10.1136/bmjopen-2021-056017"
+ },
+ {
+  "record_id": "S044",
+  "authors": "Ahmad, Tanveer and Zhu, Hongyu and Zhang, Dongdong and Tariq, Rasikh and Bassam, A. and Ullah, Fasee and AlGhamdi, Ahmed S and Alshamrani, Sultan S.",
+  "year": "2022",
+  "title": "Energetics Systems and artificial intelligence: Applications of industry 4.0",
+  "venue": "Energy Reports",
+  "doi": "10.1016/j.egyr.2021.11.256"
+ },
+ {
+  "record_id": "S045",
+  "authors": "Fei, Liguo and Wang, Yanqing",
+  "year": "2022",
+  "title": "Demand prediction of emergency materials using case-based reasoning extended by the Dempster-Shafer theory",
+  "venue": "Socio-Economic Planning Sciences",
+  "doi": "10.1016/j.seps.2022.101386"
+ },
+ {
+  "record_id": "S046",
+  "authors": "Fuqua, Donovan and Hespeler, Steven",
+  "year": "2022",
+  "title": "Commodity demand forecasting using modulated rank reduction for humanitarian logistics planning",
+  "venue": "Expert Systems with Applications",
+  "doi": "10.1016/j.eswa.2022.117753"
+ },
+ {
+  "record_id": "S052",
+  "authors": "Toland, Joseph C. and Wein, Anne M. and Wu, An-Min and Spearing, Lauryn A.",
+  "year": "2023",
+  "title": "A conceptual framework for estimation of initial emergency food and water resource requirements in disasters",
+  "venue": "International Journal of Disaster Risk Reduction",
+  "doi": "10.1016/j.ijdrr.2023.103661"
+ },
+ {
+  "record_id": "S067",
+  "authors": "Powers, Courtney J. and Devaraj, Ashwin and Ashqeen, Kaab and Dontula, Aman and Joshi, Amit and Shenoy, Jayanth and Murthy, Dhiraj",
+  "year": "2023",
+  "title": "Using artificial intelligence to identify emergency messages on social media during a natural disaster: A deep learning approach",
+  "venue": "International Journal of Information Management Data Insights",
+  "doi": "10.1016/j.jjimei.2023.100164"
+ },
+ {
+  "record_id": "S068",
+  "authors": "Pitakaso, Rapeepan and Srichok, Thanatkij and Khonjun, Surajet and Golinska-Dawson, Paulina and Sethanan, Kanchana and Nanthasamroeng, Natthapong and Gonwirat, Sarayut and Luesak, Peerawat and Boonmee, Chawis",
+  "year": "2024",
+  "title": "Optimization-driven artificial intelligence-enhanced municipal waste classification system for disaster waste management",
+  "venue": "Engineering Applications of Artificial Intelligence",
+  "doi": "10.1016/j.engappai.2024.108614"
+ },
+ {
+  "record_id": "S069",
+  "authors": "Biswas, Saptadeep and Kumar, Dhruv and Hajiaghaei-Keshteli, Mostafa and Bera, Uttam Kumar",
+  "year": "2024",
+  "title": "An AI-based framework for earthquake relief demand forecasting: A case study in T\\\"urkiye",
+  "venue": "International Journal of Disaster Risk Reduction",
+  "doi": "10.1016/j.ijdrr.2024.104287"
+ },
+ {
+  "record_id": "S075",
+  "authors": "Zheng, Yu Jun and Yu, Si Lan and Song, Qin and Huang, Yu Jiao and Sheng, Wei Guo and Chen, Sheng Yong",
+  "year": "2022",
+  "title": "Co-Evolutionary Fuzzy Deep Transfer Learning for Disaster Relief Demand Forecasting",
+  "venue": "IEEE Transactions on Emerging Topics in Computing",
+  "doi": "10.1109/TETC.2021.3085337"
+ },
+ {
+  "record_id": "S078",
+  "authors": "Yang, Jianliang and Zhang, Kun and Hou, Hanping and Li, Na",
+  "year": "2025",
+  "title": "Forecasting Demand for Emergency Material Classification Based on Casualty Population",
+  "venue": "Systems",
+  "doi": "10.3390/systems13060478"
+ },
+ {
+  "record_id": "S079",
+  "authors": "Kundu, Sima and Punia, Sushil",
+  "year": "2026",
+  "title": "Relief demand prediction and operational planning in flood-affected areas",
+  "venue": "Journal of the Operational Research Society",
+  "doi": "10.1080/01605682.2026.2671237"
+ },
+ {
+  "record_id": "S084",
+  "authors": "Nair, Rahul and Madsen, Bo and Kj\\aerum, Alexander",
+  "year": "2023",
+  "title": "An explainable forecasting system for humanitarian needs assessment",
+  "venue": "AI Magazine",
+  "doi": "10.1002/aaai.12133"
+ },
+ {
+  "record_id": "S106",
+  "authors": "Zhang, Danrong and Roy, Nimisha and Wang, Ruijia and Frost, J. David",
+  "year": "2025",
+  "title": "Predicting tornado-induced building damage: A comparative study of tree-based models and graph neural networks",
+  "venue": "International Journal of Disaster Risk Reduction",
+  "doi": "10.1016/j.ijdrr.2025.105525"
+ },
+ {
+  "record_id": "S108",
+  "authors": "Liu, Chia-Fu and Huang, Lipai and Yin, Kai and Brody, Sam and Mostafavi, Ali",
+  "year": "2024",
+  "title": "FloodDamageCast: Building flood damage nowcasting with machine-learning and data augmentation",
+  "venue": "International Journal of Disaster Risk Reduction",
+  "doi": "10.1016/j.ijdrr.2024.104971"
+ }
+]

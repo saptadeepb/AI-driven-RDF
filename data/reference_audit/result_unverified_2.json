@@ -1,0 +1,246 @@
+[
+  {
+    "key": "Hosseinpourtehrani2022PreconditionsServices",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/42ogxy8l",
+    "comment": "Title, all four authors, IJDRR, 2022, article 103177 and DOI match. Volume 80 not shown on source (consistent with DOI/year)."
+  },
+  {
+    "key": "Huang2020MedicalMethod",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7501710",
+    "comment": "PMC citation: Huang Y, Xu C, Ji M, Xiang W, He D. BMC Med Inform Decis Mak 2020;20:237, doi 10.1186/s12911-020-01256-1. All match."
+  },
+  {
+    "key": "Indra2023AnCGDNN",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://researchr.org/publication/IndraD23",
+    "comment": "G. Indra, N. Duraipandian; Expert Syst. Appl. 212, 118747, 2023. DOI not shown on source but consistent."
+  },
+  {
+    "key": "Ivic2019ARTIFICIALMANAGEMENT",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "title",
+        "old": "{ARTIFICIAL INTELLIGENCE AND GEOSPATIAL ANALYSIS IN DISASTER MANAGEMENT}",
+        "new": "{Artificial Intelligence and Geospatial Analysis in Disaster Management}"
+      }
+    ],
+    "source_url": "https://isprs-archives.copernicus.org/articles/XLII-3-W8/161/2019/",
+    "comment": "Record exists; author, volume XLII-3/W8, pp. 161-166, 2019 (published 21 Aug 2019) and DOI match. Only the all-caps title should be replaced by the publisher's title case."
+  },
+  {
+    "key": "Jamei2022CombinedSelection",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://cs.reviewer.ly/app/publication/32429213-6990-4b46-a1fa-d396df92f91e",
+    "comment": "Title, all seven authors in order, journal and year 2022 match. Volume/article/DOI not shown on source (not contradicted)."
+  },
+  {
+    "key": "Jia2023DeepOpportunities",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://api.openalex.org/works/doi:10.3390%2FRS15164098",
+    "comment": "OpenAlex: Remote Sensing 15(16), 4098, 2023, doi 10.3390/rs15164098, authors Jia and Wenjie Ye. All match (OpenAlex lists first author as 'Jing Chao Jia'; bib 'Jing' kept, check against MDPI page if desired)."
+  },
+  {
+    "key": "Jiang2019EmergencyEarthquakes",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found this session after three searches: (1) exact title + 'IFAC-PapersOnLine'; (2) exact title + 'Jiang'; (3) 'IFAC-PapersOnLine 2019 MIM blood demand forecasting earthquakes Jiang Liu Zheng'; direct fetch of https://www.sciencedirect.com/science/article/pii/S2405896319311590 failed (site error). An earlier audit session reported seeing this title on that ScienceDirect PII in a search result, so the paper probably exists, but authors (initials only), 52(13), 773-777 and DOI remain unconfirmed. Verify via doi.org before resubmission."
+  },
+  {
+    "key": "Jozaei2020UsingAustralia",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research-repository.uwa.edu.au/en/publications/using-a-resilience-thinking-approach-to-improve-coastal-governanc/",
+    "comment": "All fields match (J Environ Manage 253, 109662, 1 Jan 2020, DOI)."
+  },
+  {
+    "key": "Juang2017ApplicationTaiwan",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ebusca.uv.mx/Record/pubmed-5719313",
+    "comment": "Authors (all five), title, 2017, DOI match. Volume 7(11) e018628 not shown on source; consistent with DOI; PMC5719313 / bmjopen."
+  },
+  {
+    "key": "Kankanamge2021PublicBrisbane",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research.usc.edu.au/esploro/outputs/journalArticle/Public-perceptions-on-artificial-intelligence-driven/991068684302621",
+    "comment": "Authors, title, Telematics and Informatics 65, 2021, DOI 10.1016/j.tele.2021.101729 match."
+  },
+  {
+    "key": "Karimiziarani2023SocialIan",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://sepehrkrz.github.io/portfolio/portfolio-5",
+    "comment": "Author's portfolio lists the title, IJDRR, 2023, ScienceDirect PII S221242092300345X (consistent with article 103865 / DOI). Authors, volume 95 not shown there. Source capitalises 'Twitter'; consider {T}witter in bib."
+  },
+  {
+    "key": "Khatua2021ArtificialForward",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://mdpi.com/2079-9292/10/19/2348",
+    "comment": "All fields match (Electronics 10(19), 2348, 2021, DOI, authors)."
+  },
+  {
+    "key": "Kirbas2020ComparativeApproaches",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/chsofr/v138y2020ics0960077920304136.html",
+    "comment": "Authors, title, Chaos Solitons Fractals 138, 2020, DOI match. Optional: authors' names carry Turkish diacritics (Kırbaş, Sözen, Doğuş, Şinasi)."
+  },
+  {
+    "key": "Kong2026GreyEmergencyMaterial",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found. Searches: (1) keyword phrase 'fractional-order grey model' Simpson quantum-behaved particle swarm 'emergency material demand' Kong Yang Grey Systems; (2) 'GS-08-2025-0106' OR 'emergency material demand prediction' Kong Yang Grey Systems 2026. Neither the title nor the DOI appears. The closest hit is a different paper by a co-named author: Yi, Wenguang Yang, Chen (2026), 'A Gauss-Legendre Integral and GOOSE-Optimized GM(1,1) Model for Forecasting Emergency Material Demand in Hebei Province, China', The Journal of Grey System 38(1) 92-102 (https://jgrey.nuaa.edu.cn/EN/Y2026/V38/I1/92). Possibly fabricated or a mis-attributed reference: confirm via doi.org or remove."
+  },
+  {
+    "key": "Kumar2013BeforeFramework",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/proeco/v145y2013i2p613-629.html",
+    "comment": "All fields match (IJPE 145(2) 613-629, 2013, DOI)."
+  },
+  {
+    "key": "Kumar2022ApplicationApproach",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/annopr/v319y2022i1d10.1007_s10479-020-03898-w.html",
+    "comment": "All fields match (AOR 319(1) 379-411, 2022, DOI)."
+  },
+  {
+    "key": "Kundu2022EmergencyResearch",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v164y2022ics1366554522001788.html",
+    "comment": "Authors, title (published with an em dash), TRE 164, 2022, DOI match."
+  },
+  {
+    "key": "Lin2020ADisaster",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/45Ym3DM4",
+    "comment": "All seven authors, title, IJDRR, 2020, article 101682, DOI match. Volume 49 not shown (consistent)."
+  },
+  {
+    "key": "Luo2023RecursivePerception",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://cs.reviewer.ly/app/publication/6405cb36-792a-4f4e-86ba-8430f5c5d64d",
+    "comment": "Title, authors (Qinkai Luo, Chao Yang, Jun Yang), ESWA, 2023 match. Volume 218/article 119545/DOI not shown on source (not contradicted)."
+  },
+  {
+    "key": "Mediavilla2022ReviewManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://nbn-resolving.org/urn:nbn:de:bsz:rt2-opus4-36807",
+    "comment": "Title found in a Reutlingen University repository record (search result); page itself was blocked, so authors/volume/pages/DOI not independently confirmed. Procedia CIRP is a journal serial; @article with journal={Procedia CIRP} is the usual form."
+  },
+  {
+    "key": "Mohammadi2014ASeries",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://manuscript.isc.ac/Inventory/10/2126311.htm",
+    "comment": "Title, authors (Reza Mohammadi, S.M.T. Fatemi Ghomi, Farzad Zeinali), EAAI, pp. 204-214, 2014 match."
+  },
+  {
+    "key": "Mota-Santiago2023DeterminationCountriesc",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found after three searches: (1) exact title + Mota-Santiago; (2) authors Mota-Santiago Lozano Ortiz-Valera 2023 + keywords + IJDRR; (3) exact title fragment 'Determination of disaster scenarios for estimating relief demand'. None returned this paper. Volume 87/article 103570/DOI unverified; may be fabricated or garbled. Confirm via doi.org/10.1016/j.ijdrr.2023.103570 or remove."
+  },
+  {
+    "key": "Murtas2022Time-seriesSystem",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ebusca.uv.mx/Record/pubmed-9045060",
+    "comment": "Authors, title, 2022, DOI match; search result URL bmjopen.bmj.com/content/12/4/e056017 confirms 12(4) e056017."
+  },
+  {
+    "key": "Nair2017EstimatingOperations",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/soceps/v57y2017icp73-83.html",
+    "comment": "All fields match (SEPS 57, 73-83, 2017, DOI)."
+  },
+  {
+    "key": "Nguyen2022ForecastingNetwork",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://scholars.ttu.edu/en/publications/forecasting-peoples-needs-in-hurricane-events-from-social-network-3",
+    "comment": "Six authors in order, IEEE Trans Big Data, issue 1, pp. 229-240, Feb 2022 match. Volume/DOI not shown on source."
+  },
+  {
+    "key": "Pacheco2016Forecast-drivenHurricane",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/pal/jorsoc/v67y2016i1p98-113.html",
+    "comment": "Authors, title, JORS 67(1) 98-113, Jan 2016 match. Note: the first author's surname is 'Galindo Pacheco' (Gina Galindo Pacheco); bib has given name 'Gina Galindo', surname 'Pacheco'. Consider author = {Galindo Pacheco, Gina} (EconBiz lists 'Galindo Pacheco, Gina')."
+  },
+  {
+    "key": "Park2022TheJapan",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://vufind-test.katalog.k.utb.cz/SummonRecord/FETCH-LOGICAL-c303t-41162b2434a4da2e1887312f897b315601eb3fb83d959bfedf7ed8f5e72e57dc3",
+    "comment": "All fields match (IJDRR 69, 102739, Feb 2022, DOI)."
+  },
+  {
+    "key": "Paul2022AnBehavior",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/annopr/v319y2022i1d10.1007_s10479-021-04146-5.html",
+    "comment": "All fields match, including AOR 319(1) pp. 1-29, Dec 2022, DOI."
+  },
+  {
+    "key": "Perez2023AnalysisDisasters",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/soceps/v86y2023ics0038012122002713.html",
+    "comment": "Authors, title, SEPS 86, 2023, DOI match. Article number not shown (consistent)."
+  },
+  {
+    "key": "Pitakaso2024Optimization-drivenManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/4LMk3v3l",
+    "comment": "All nine authors in order, title, EAAI, 2024, article 108614, DOI match."
+  },
+  {
+    "key": "Powers2023UsingApproach",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/02400e59e3d140918386c4a31b1c1674",
+    "comment": "Seven authors in order, title, IJIM Data Insights 3(1) 100164, April 2023 match."
+  },
+  {
+    "key": "Quiliche2023ColdWaveRiskML",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research.hanken.fi/en/publications/a-predictive-assessment-of-households-risk-against-disasters-caus/",
+    "comment": "All fields match (IJDRR 98, 104109, 2023, DOI, four authors)."
+  },
+  {
+    "key": "Rajesh2019Grey-India",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/nathaz/v97y2019i1d10.1007_s11069-019-03651-y.html",
+    "comment": "All fields match (Nat Hazards 97(1) 395-435, May 2019, DOI)."
+  },
+  {
+    "key": "Rajput2020TemporalHouston",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://par.nsf.gov/servlets/purl/10311647",
+    "comment": "Two direct searches returned no record page, but Li and Mostafavi (NSF PAR 10311647) cite 'Rajput et al. 2020' with this exact title and authors A. A. Rajput, Q. Li, C. Zhang, A. Mostafavi. Existence confirmed; IJDRR vol 46 article 101622 and DOI not independently confirmed."
+  }
+]

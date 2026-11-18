@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/saptadeepb/AI-driven-RDF/supplementary/S3_benchmark_task_card_schema.json",
+  "title": "Relief demand forecasting benchmark task card",
+  "description": "Supplementary S3. A machine-readable specification of the minimum information a public relief-demand forecasting benchmark task must declare before a reference baseline can be meaningfully distributed. It is a specification, not a dataset and not a fitted model: no benchmark result is implied.",
+  "type": "object",
+  "required": ["task_id", "version", "target", "unit", "spatial_resolution", "temporal_resolution", "horizon", "issue_time_rule", "hazard_scope", "severity_strata", "data_sources", "split_rule", "baselines", "metrics", "uncertainty", "reporting", "custodian"],
+  "properties": {
+    "task_id": {"type": "string", "description": "Stable identifier, e.g. RDF-FLOOD-SHELTER-01."},
+    "version": {"type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$"},
+    "target": {
+      "type": "object",
+      "required": ["quantity", "definition", "ground_truth_source"],
+      "properties": {
+        "quantity": {"type": "string", "description": "What is forecast, e.g. people requiring emergency shelter, food rations required, displaced persons, emergency department attendances."},
+        "definition": {"type": "string", "description": "Operational definition, including inclusion rules and how double counting is avoided."},
+        "ground_truth_source": {"type": "string", "description": "Where the observed value comes from (distribution records, needs assessments, admissions data) and its known biases."},
+        "ground_truth_latency_days": {"type": "number", "minimum": 0}
+      }
+    },
+    "unit": {"type": "string", "description": "Unit of the target, e.g. persons, households, kits, tonnes, attendances per day."},
+    "spatial_resolution": {"type": "string", "description": "Administrative level or grid, e.g. admin-2, 1 km grid, facility."},
+    "temporal_resolution": {"type": "string", "description": "e.g. daily, weekly, per event."},
+    "horizon": {
+      "type": "object",
+      "required": ["lead_times", "decision_served"],
+      "properties": {
+        "lead_times": {"type": "array", "items": {"type": "string"}, "description": "Lead times evaluated, e.g. ['72h before landfall', '0-72h after onset', '1-4 weeks']."},
+        "decision_served": {"type": "string", "description": "The operational decision the forecast informs (pre-positioning, first distribution cycle, funding trigger, appeal sizing)."}
+      }
+    },
+    "issue_time_rule": {"type": "string", "description": "Which information is admissible at forecast issue time, to prevent look-ahead leakage."},
+    "hazard_scope": {"type": "array", "items": {"enum": ["Multi-hazard/General", "Earthquake", "Flood", "Hurricane/Cyclone", "Biological/Epidemic", "Wildfire", "Drought/Food insecurity", "Conflict/Displacement", "Technological/Other"]}, "description": "Uses the hazard categories of the review's master dataset so tasks can be linked to it."},
+    "severity_strata": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["label", "rule"],
+        "properties": {"label": {"type": "string"}, "rule": {"type": "string", "description": "e.g. top decile of observed demand, or events above an operational trigger threshold."}}
+      },
+      "description": "Error must be reported per stratum, so that performance on surge events is visible rather than averaged away."
+    },
+    "data_sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "custodian", "access", "terms_of_use_verified"],
+        "properties": {
+          "name": {"type": "string"},
+          "custodian": {"type": "string"},
+          "access": {"enum": ["open", "registration", "restricted", "proprietary"]},
+          "licence_or_terms": {"type": "string"},
+          "terms_of_use_verified": {"type": "boolean", "description": "Must be true before a task is released; terms differ between repositories and some restrict redistribution."},
+          "contains_personal_data": {"type": "boolean"}
+        }
+      }
+    },
+    "split_rule": {"type": "string", "description": "Train/validation/test split by event and time, never by random row, e.g. leave-one-event-out or rolling origin with events after a cut-off date held out."},
+    "baselines": {
+      "type": "array",
+      "description": "The minimal baseline ladder every submitted model is compared with.",
+      "items": {"enum": ["naive_persistence", "seasonal_naive_or_historical_analogue", "linear_or_ARIMA_family", "gradient_boosting", "other_declared"]},
+      "minItems": 3
+    },
+    "metrics": {
+      "type": "object",
+      "required": ["point", "by_stratum"],
+      "properties": {
+        "point": {"type": "array", "items": {"enum": ["MAE", "RMSE", "MASE", "sMAPE", "bias"]}, "description": "Scale-free metrics (e.g. MASE) are preferred because demand varies by orders of magnitude between events."},
+        "probabilistic": {"type": "array", "items": {"enum": ["pinball_loss", "CRPS", "interval_coverage", "interval_width"]}},
+        "decision": {"type": "array", "items": {"type": "string"}, "description": "Optional decision-relevant losses, e.g. unmet demand and over-supply costs, or trigger hit/false-alarm rates."},
+        "by_stratum": {"type": "boolean", "const": true}
+      }
+    },
+    "uncertainty": {
+      "type": "object",
+      "required": ["required"],
+      "properties": {
+        "required": {"type": "boolean", "description": "Whether predictive intervals or distributions are mandatory for submissions."},
+        "nominal_levels": {"type": "array", "items": {"type": "number", "exclusiveMinimum": 0, "exclusiveMaximum": 1}}
+      }
+    },
+    "reporting": {
+      "type": "object",
+      "required": ["guideline"],
+      "properties": {
+        "guideline": {"type": "string", "const": "TRIPOD+AI", "description": "Reporting guideline the review recommends for prediction-model studies."},
+        "model_card_fields": {"type": "array", "items": {"type": "string"}, "default": ["intended_use", "training_events", "inputs_and_their_availability_at_issue_time", "performance_by_stratum", "known_failure_modes", "update_policy", "operating_organisation"]}
+      }
+    },
+    "custodian": {"type": "string", "description": "Who maintains the task and its versions."},
+    "link_to_review_dataset": {"type": "string", "description": "Optional: study_id values in master_extraction.csv whose task this card formalizes."}
+  }
+}

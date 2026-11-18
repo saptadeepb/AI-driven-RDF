@@ -1,0 +1,407 @@
+[
+ {
+  "run": "run1",
+  "item": "85",
+  "authors": "IHME COVID-19 Forecasting Team",
+  "year": 2021,
+  "title": "Modeling COVID-19 scenarios for the United States",
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-1132-9"
+ },
+ {
+  "run": "run1",
+  "item": "22",
+  "authors": "Jaiswal, K.; Wald, D.J.",
+  "year": 2010,
+  "title": "An empirical model for global earthquake fatality estimation",
+  "venue": "Earthquake Spectra",
+  "doi": "10.1193/1.3480331"
+ },
+ {
+  "run": "run2",
+  "item": "21",
+  "authors": "Kerle, N.; Nex, F.; Gerke, M.; Duarte, D.; Vetrivel, A.",
+  "year": 2020,
+  "title": "UAV-based structural damage mapping: A review",
+  "venue": "ISPRS International Journal of Geo-Information",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "114",
+  "authors": "Kanter, R.K.",
+  "year": 2007,
+  "title": "Strategies to improve pediatric disaster surge response: potential mortality reduction and tradeoffs",
+  "venue": "Critical Care Medicine",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "12",
+  "authors": "Jaiswal, K.; Wald, D.",
+  "year": 2010,
+  "title": "An empirical model for global earthquake fatality estimation",
+  "venue": "Earthquake Spectra",
+  "doi": "10.1193/1.3480331"
+ },
+ {
+  "run": "run2",
+  "item": "78",
+  "authors": "Moghadas, S.M.; Shoukat, A.; Fitzpatrick, M.C.; et al.",
+  "year": 2020,
+  "title": "Projecting hospital utilization during the COVID-19 outbreaks in the United States",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi": "10.1073/pnas.2004064117"
+ },
+ {
+  "run": "run2",
+  "item": "56",
+  "authors": "Bischiniotis, K.; de Moel, H.; van den Homberg, M.; et al.",
+  "year": 2020,
+  "title": "A framework for comparing permanent and forecast-based flood risk-reduction strategies",
+  "venue": "Science of the Total Environment",
+  "doi": "unknown"
+ },
+ {
+  "run": "run3",
+  "item": "75",
+  "authors": "Akter, S.; Wamba, S.F.",
+  "year": 2019,
+  "title": "Big data and disaster management: a systematic review and agenda for future research",
+  "venue": "Annals of Operations Research",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "79",
+  "authors": "IHME COVID-19 Forecasting Team",
+  "year": 2021,
+  "title": "Modeling COVID-19 scenarios for the United States",
+  "venue": "Nature Medicine",
+  "doi": "10.1038/s41591-020-1132-9"
+ },
+ {
+  "run": "run3",
+  "item": "50",
+  "authors": "Guan, X.; Chen, C.",
+  "year": 2014,
+  "title": "Using social media data to understand and assess disasters",
+  "venue": "Natural Hazards",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "42",
+  "authors": "Schr\u00f6ter, K.; Kreibich, H.; Vogel, K.; Riggelsen, C.; Scherbaum, F.; Merz, B.",
+  "year": 2014,
+  "title": "How useful are complex flood damage models?",
+  "venue": "Water Resources Research",
+  "doi": "10.1002/2013WR014396"
+ },
+ {
+  "run": "run1",
+  "item": "15",
+  "authors": "Salmer\u00f3n, J.; Apte, A.",
+  "year": 2010,
+  "title": "Stochastic optimization for natural disaster asset prepositioning",
+  "venue": "Production and Operations Management",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "84",
+  "authors": "Tatem, A.J.",
+  "year": 2017,
+  "title": "WorldPop, open data for spatial demography",
+  "venue": "Scientific Data",
+  "doi": "10.1038/sdata.2017.4"
+ },
+ {
+  "run": "run1",
+  "item": "86",
+  "authors": "Cramer, E.Y.; Ray, E.L.; Lopez, V.K.; Bracher, J.; Brennen, A.; et al.",
+  "year": 2022,
+  "title": "Evaluation of individual and ensemble probabilistic forecasts of COVID-19 mortality in the United States",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi": "10.1073/pnas.2113561119"
+ },
+ {
+  "run": "run1",
+  "item": "83",
+  "authors": "Balashankar, A.; Subramanian, L.; Fraiberger, S.P.",
+  "year": 2023,
+  "title": "Predicting food crises using news streams",
+  "venue": "Science Advances",
+  "doi": "10.1126/sciadv.abm3449"
+ },
+ {
+  "run": "run2",
+  "item": "25",
+  "authors": "Imran, M.; Elbassuoni, S.; Castillo, C.; Diaz, F.; Meier, P.",
+  "year": 2013,
+  "title": "Extracting information nuggets from disaster-related messages in social media",
+  "venue": "ISCRAM",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "83",
+  "authors": "Deville, P.; Linard, C.; Martin, S.; et al.",
+  "year": 2014,
+  "title": "Dynamic population mapping using mobile phone data",
+  "venue": "Proceedings of the National Academy of Sciences",
+  "doi": "10.1073/pnas.1408439111"
+ },
+ {
+  "run": "run1",
+  "item": "41",
+  "authors": "Merz, B.; Kreibich, H.; Lall, U.",
+  "year": 2013,
+  "title": "Multi-variate flood damage assessment: a tree-based data-mining approach",
+  "venue": "Natural Hazards and Earth System Sciences",
+  "doi": "10.5194/nhess-13-53-2013"
+ },
+ {
+  "run": "run3",
+  "item": "47",
+  "authors": "Nex, F.; Duarte, D.; Tonolo, F.G.; Kerle, N.",
+  "year": 2019,
+  "title": "Structural building damage detection with deep learning: Assessment of a state-of-the-art CNN in operational conditions",
+  "venue": "Remote Sensing",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "33",
+  "authors": "Ghorbanzadeh, O.; Tiede, D.; Wendt, L.; Sudmanns, M.; Lang, S.",
+  "year": 2021,
+  "title": "Transferable instance segmentation of dwellings in a refugee camp: integrating CNN and OBIA",
+  "venue": "European Journal of Remote Sensing",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "90",
+  "authors": "Abid, S.K.; Sulaiman, N.; Chan, S.W.; et al.",
+  "year": 2021,
+  "title": "Toward an integrated disaster management approach: How artificial intelligence can boost disaster management",
+  "venue": "Sustainability",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "113",
+  "authors": "Bayram, J.D.; Zuabi, S.; Subbarao, I.",
+  "year": 2011,
+  "title": "Disaster metrics: quantitative benchmarking of hospital surge capacity in trauma-related multiple casualty events",
+  "venue": "Disaster Medicine and Public Health Preparedness",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "22",
+  "authors": "Gupta, R.; Goodman, B.; Patel, N.; et al.",
+  "year": 2019,
+  "title": "Creating xBD: A dataset for assessing building damage from satellite imagery",
+  "venue": "CVPR Workshops",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "55",
+  "authors": "Kishore, N.; Marqu\u00e9s, D.; Mahmud, A.; Kiang, M.V.; Rodriguez, I.; Fuller, A.; et al.",
+  "year": 2018,
+  "title": "Mortality in Puerto Rico after Hurricane Maria",
+  "venue": "New England Journal of Medicine",
+  "doi": "10.1056/NEJMsa1803972"
+ },
+ {
+  "run": "run1",
+  "item": "43",
+  "authors": "Wagenaar, D.; de Jong, J.; Bouwer, L.M.",
+  "year": 2017,
+  "title": "Multi-variable flood damage modelling with limited data using supervised learning approaches",
+  "venue": "Natural Hazards and Earth System Sciences",
+  "doi": "10.5194/nhess-17-1683-2017"
+ },
+ {
+  "run": "run1",
+  "item": "88",
+  "authors": "Shoukat, A.; Wells, C.R.; Langley, J.M.; Singer, B.H.; Galvani, A.P.; Moghadas, S.M.",
+  "year": 2020,
+  "title": "Projecting demand for critical care beds during COVID-19 outbreaks in Canada",
+  "venue": "Canadian Medical Association Journal",
+  "doi": "10.1503/cmaj.200457"
+ },
+ {
+  "run": "run2",
+  "item": "71",
+  "authors": "WHO Ebola Response Team",
+  "year": 2014,
+  "title": "Ebola virus disease in West Africa: the first 9 months of the epidemic and forward projections",
+  "venue": "New England Journal of Medicine",
+  "doi": "10.1056/NEJMoa1411100"
+ },
+ {
+  "run": "run2",
+  "item": "73",
+  "authors": "Lewnard, J.A.; Ndeffo Mbah, M.L.; Alfaro-Murillo, J.A.; et al.",
+  "year": 2014,
+  "title": "Dynamics and control of Ebola virus disease transmission in Montserrado, Liberia: a mathematical modelling analysis",
+  "venue": "The Lancet Infectious Diseases",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "40",
+  "authors": "Hegre, H.; Bell, C.; Colaresi, M.; et al.",
+  "year": 2021,
+  "title": "ViEWS2020: Revising and evaluating the ViEWS political Violence Early-Warning System",
+  "venue": "Journal of Peace Research",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "52",
+  "authors": "Coughlan de Perez, E.; van den Hurk, B.; van Aalst, M.K.; et al.",
+  "year": 2015,
+  "title": "Forecast-based financing: an approach for catalyzing humanitarian action based on extreme weather and climate forecasts",
+  "venue": "Natural Hazards and Earth System Sciences",
+  "doi": "10.5194/nhess-15-895-2015"
+ },
+ {
+  "run": "run3",
+  "item": "40",
+  "authors": "Coughlan de Perez, E.; van den Hurk, B.; van Aalst, M.K.; Jongman, B.; Klose, T.; Suarez, P.",
+  "year": 2015,
+  "title": "Forecast-based financing: an approach for catalyzing humanitarian action based on extreme weather and climate forecasts",
+  "venue": "Natural Hazards and Earth System Sciences",
+  "doi": "10.5194/nhess-15-895-2015"
+ },
+ {
+  "run": "run2",
+  "item": "41",
+  "authors": "Checchi, F.; Roberts, L.",
+  "year": 2008,
+  "title": "Documenting mortality in crises: what keeps us from doing better?",
+  "venue": "PLoS Medicine",
+  "doi": "unknown"
+ },
+ {
+  "run": "run3",
+  "item": "45",
+  "authors": "Rinaldo, A.; Bertuzzo, E.; Mari, L.; et al.",
+  "year": 2012,
+  "title": "Reassessment of the 2010-2011 Haiti cholera outbreak and rainfall-driven multiseason projections",
+  "venue": "PNAS",
+  "doi": "10.1073/pnas.1203333109"
+ },
+ {
+  "run": "run1",
+  "item": "45",
+  "authors": "Kam, P.M.; Aznar-Siguan, G.; Schewe, J.; Milano, L.; Ginnetti, J.; Willner, S.; McCaughey, J.W.; Bresch, D.N.",
+  "year": 2021,
+  "title": "Global warming and population change both heighten future risk of human displacement due to river floods",
+  "venue": "Environmental Research Letters",
+  "doi": "10.1088/1748-9326/abd26c"
+ },
+ {
+  "run": "run2",
+  "item": "59",
+  "authors": "Nateghi, R.; Guikema, S.D.; Quiring, S.M.",
+  "year": 2011,
+  "title": "Comparison and validation of statistical methods for predicting power outage durations in the event of hurricanes",
+  "venue": "Risk Analysis",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "71",
+  "authors": "Hegre, H.; Bell, C.; Colaresi, M.; Croicu, M.; Hoyles, F.; et al.",
+  "year": 2021,
+  "title": "ViEWS2020: Revising and evaluating the ViEWS political Violence Early-Warning System",
+  "venue": "Journal of Peace Research",
+  "doi": "unknown"
+ },
+ {
+  "run": "run3",
+  "item": "25",
+  "authors": "Lentz, E.C.; Michelson, H.; Baylis, K.; Zhou, Y.",
+  "year": 2019,
+  "title": "A data-driven approach improves food insecurity crisis prediction",
+  "venue": "World Development",
+  "doi": "10.1016/j.worlddev.2019.06.008"
+ },
+ {
+  "run": "run2",
+  "item": "45",
+  "authors": "Wang, D.; Andree, B.P.J.; Chamorro, A.F.; Spencer, P.G.",
+  "year": 2022,
+  "title": "Transitions into and out of food insecurity: A probabilistic approach with panel data evidence from 15 countries",
+  "venue": "World Development",
+  "doi": "unknown"
+ },
+ {
+  "run": "run1",
+  "item": "53",
+  "authors": "Nateghi, R.; Guikema, S.D.; Quiring, S.M.",
+  "year": 2011,
+  "title": "Comparison and validation of statistical methods for predicting power outage durations in the event of hurricanes",
+  "venue": "Risk Analysis",
+  "doi": "10.1111/j.1539-6924.2011.01618.x"
+ },
+ {
+  "run": "run3",
+  "item": "70",
+  "authors": "Liao, Z.; Mao, X.; Hannam, P.M.; Zhao, T.",
+  "year": 2012,
+  "title": "Adaptation methodology of CBR for environmental emergency preparedness system based on an Improved Genetic Algorithm",
+  "venue": "Expert Systems with Applications",
+  "doi": "unknown"
+ },
+ {
+  "run": "run2",
+  "item": "61",
+  "authors": "Han, S.-R.; Guikema, S.D.; Quiring, S.M.; Lee, K.-H.; Rosowsky, D.; Davidson, R.A.",
+  "year": 2009,
+  "title": "Estimating the spatial distribution of power outages during hurricanes in the Gulf coast region",
+  "venue": "Reliability Engineering & System Safety",
+  "doi": "unknown"
+ },
+ {
+  "run": "run3",
+  "item": "71",
+  "authors": "Sun, W.; Bocchini, P.; Davison, B.D.",
+  "year": 2020,
+  "title": "Applications of artificial intelligence for disaster management",
+  "venue": "Natural Hazards",
+  "doi": "10.1007/s11069-020-04124-3"
+ },
+ {
+  "run": "run2",
+  "item": "82",
+  "authors": "Gul, M.; Guneri, A.F.; Gunal, M.M.",
+  "year": 2020,
+  "title": "Emergency department network under disaster conditions: The case of possible major Istanbul earthquake",
+  "venue": "Journal of the Operational Research Society",
+  "doi": "unknown"
+ },
+ {
+  "run": "run3",
+  "item": "53",
+  "authors": "Chimmula, V.K.R.; Zhang, L.",
+  "year": 2020,
+  "title": "Time series forecasting of COVID-19 transmission in Canada using LSTM networks",
+  "venue": "Chaos, Solitons & Fractals",
+  "doi": "10.1016/j.chaos.2020.109864"
+ },
+ {
+  "run": "run1",
+  "item": "60",
+  "authors": "Hagopian, A.; Flaxman, A.D.; Takaro, T.K.; Esa Al Shatari, S.A.; Rajaratnam, J.; et al.",
+  "year": 2013,
+  "title": "Mortality in Iraq associated with the 2003-2011 war and occupation: findings from a national cluster sample survey by the University Collaborative Iraq Mortality Study",
+  "venue": "PLoS Medicine",
+  "doi": "10.1371/journal.pmed.1001533"
+ }
+]

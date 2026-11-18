@@ -1,0 +1,25 @@
+listed_title_normalised,candidate_study_id,plain_ratio,listed_year,corpus_year,same_paper,reason
+an emergency logistics distribution approach for quick response to urgent relief demand in disasters,S002,1.000,2007,2007,yes,titles identical after normalisation
+dynamic relief demand management for emergency logistics operations under large scale disasters,S005,1.000,2010,2010,yes,titles identical after normalisation
+forecasting demand of commodities after natural disasters,S004,1.000,2010,2010,yes,titles identical after normalisation
+a fuzzy rough set approach to emergency material demand prediction over two universes,S007,1.000,2013,2013,yes,titles identical after normalisation
+demand prediction of emergency materials using case based reasoning extended by the dempster shafer theory,S045,1.000,2022,2022,yes,titles identical after normalisation
+a post disaster demand forecasting system using principal component regression analysis and case based reasoning over smartphone based dtn,S022,1.000,2019,2019,yes,titles identical after normalisation
+immediate resource requirements after hurricane katrina,S073,1.000,2012,2012,yes,titles identical after normalisation
+inventory decisions for emergency supplies based on hurricane count predictions,S072,1.000,2010,2010,yes,titles identical after normalisation
+a bayesian decision model with hurricane forecast updates for emergency supplies inventory management,S006,1.000,2011,2011,yes,titles identical after normalisation
+inventory planning and coordination in disaster relief efforts,S008,1.000,2013,2013,yes,titles identical after normalisation
+extracting resource needs and availabilities from microblogs for aiding post disaster relief operations,S023,1.000,2019,2019,yes,titles identical after normalisation
+a big data driven dynamic estimation model of relief supplies demand in urban flood disaster,S030,1.000,2020,2020,yes,titles identical after normalisation
+explainable artificial intelligence in disaster risk management achievements and prospects,S062,0.947,2023,2023,yes,"same title, year and topic; ratio below 0.95 only because of a punctuation and casing difference in the subtitle (manual check)"
+impact based forecasting of tropical cyclone related human displacement to support anticipatory action,S086,0.692,2024,2025,no,different paper: titles share topic words only
+applications of artificial intelligence for disaster management,S071,0.583,2020,2024,no,different paper: titles share topic words only
+aidr artificial intelligence for disaster response,S057,0.553,2014,2021,no,different paper: titles share topic words only
+big data in natural disaster management a review,S071,0.549,2018,2024,no,different paper: titles share topic words only
+rapid assessment of disaster damage using social media activity,S109,0.544,2016,2025,no,different paper: titles share topic words only
+the potential of emergent disruptive technologies for humanitarian supply chains the integration of blockchain artificial intelligence and 3d printing,S064,0.539,2020,2023,no,different paper: titles share topic words only
+emergency resources demand prediction using case based reasoning,S045,0.518,2012,2022,no,different paper: titles share topic words only
+can we detect trends in natural disaster management with artificial intelligence a review of modeling practices,S071,0.454,2021,2024,no,different paper: titles share topic words only
+forecasting for covid 19 has failed,S031,0.385,2022,2020,no,different paper: titles share topic words only
+a comprehensive literature review of the demand forecasting methods of emergency resources from the perspective of artificial intelligence,S024,0.368,2019,2019,no,different paper: titles share topic words only
+processing social media messages in mass emergency a survey,S067,0.290,2015,2023,no,different paper: titles share topic words only

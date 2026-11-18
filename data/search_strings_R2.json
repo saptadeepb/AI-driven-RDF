@@ -1,0 +1,72 @@
+{
+ "blocks": {
+  "A": [
+   "relief demand",
+   "humanitarian demand",
+   "humanitarian need*",
+   "relief suppl*",
+   "emergency suppl*",
+   "emergency material*",
+   "emergency resource*",
+   "emergency supply chain*",
+   "disaster relief",
+   "humanitarian logistic*"
+  ],
+  "B": [
+   "forecast*",
+   "predict*",
+   "estimat*"
+  ],
+  "C": [
+   "artificial intelligence",
+   "machine learning",
+   "deep learning",
+   "neural network*",
+   "data-driven",
+   "time series",
+   "large language model*",
+   "generative AI",
+   "fuzzy",
+   "case-based reasoning",
+   "grey model*",
+   "rough set*"
+  ],
+  "PubMed_MeSH": [
+   "\"Disasters\"[Mesh]",
+   "\"Relief Work\"[Mesh]",
+   "\"Emergency Medical Services\"[Mesh]"
+  ]
+ },
+ "strings": [
+  {
+   "database": "Scopus",
+   "fields": "TITLE-ABS-KEY",
+   "string": "TITLE-ABS-KEY ( \"relief demand\" OR \"humanitarian demand\" OR \"humanitarian need*\" OR \"relief suppl*\" OR \"emergency suppl*\" OR \"emergency material*\" OR \"emergency resource*\" OR \"emergency supply chain*\" OR \"disaster relief\" OR \"humanitarian logistic*\" ) AND TITLE-ABS-KEY ( forecast* OR predict* OR estimat* ) AND TITLE-ABS-KEY ( \"artificial intelligence\" OR \"machine learning\" OR \"deep learning\" OR \"neural network*\" OR \"data-driven\" OR \"time series\" OR \"large language model*\" OR \"generative AI\" OR fuzzy OR \"case-based reasoning\" OR \"grey model*\" OR \"rough set*\" )"
+  },
+  {
+   "database": "Web of Science Core Collection",
+   "fields": "TS= (title, abstract, author keywords, Keywords Plus)",
+   "string": "TS=( \"relief demand\" OR \"humanitarian demand\" OR \"humanitarian need*\" OR \"relief suppl*\" OR \"emergency suppl*\" OR \"emergency material*\" OR \"emergency resource*\" OR \"emergency supply chain*\" OR \"disaster relief\" OR \"humanitarian logistic*\" ) AND TS=( forecast* OR predict* OR estimat* ) AND TS=( \"artificial intelligence\" OR \"machine learning\" OR \"deep learning\" OR \"neural network*\" OR \"data-driven\" OR \"time series\" OR \"large language model*\" OR \"generative AI\" OR fuzzy OR \"case-based reasoning\" OR \"grey model*\" OR \"rough set*\" )"
+  },
+  {
+   "database": "ScienceDirect",
+   "fields": "Title, abstract or author-specified keywords",
+   "string": "Same three blocks, split into sub-queries to respect the limit on Boolean connectors per field; the union of the sub-query results is exported (see Supplementary S5)."
+  },
+  {
+   "database": "SpringerLink",
+   "fields": "Title and abstract where the interface allows; otherwise all fields, restricted to articles and chapters",
+   "string": "Same three blocks ( \"relief demand\" OR \"humanitarian demand\" OR \"humanitarian need*\" OR \"relief suppl*\" OR \"emergency suppl*\" OR \"emergency material*\" OR \"emergency resource*\" OR \"emergency supply chain*\" OR \"disaster relief\" OR \"humanitarian logistic*\" ) AND ( forecast* OR predict* OR estimat* ) AND ( \"artificial intelligence\" OR \"machine learning\" OR \"deep learning\" OR \"neural network*\" OR \"data-driven\" OR \"time series\" OR \"large language model*\" OR \"generative AI\" OR fuzzy OR \"case-based reasoning\" OR \"grey model*\" OR \"rough set*\" )"
+  },
+  {
+   "database": "IEEE Xplore",
+   "fields": "All Metadata",
+   "string": "(\"All Metadata\":( \"relief demand\" OR \"humanitarian demand\" OR \"humanitarian need*\" OR \"relief suppl*\" OR \"emergency suppl*\" OR \"emergency material*\" OR \"emergency resource*\" OR \"emergency supply chain*\" OR \"disaster relief\" OR \"humanitarian logistic*\" )) AND (\"All Metadata\":( forecast* OR predict* OR estimat* )) AND (\"All Metadata\":( \"artificial intelligence\" OR \"machine learning\" OR \"deep learning\" OR \"neural network*\" OR \"data-driven\" OR \"time series\" OR \"large language model*\" OR \"generative AI\" OR fuzzy OR \"case-based reasoning\" OR \"grey model*\" OR \"rough set*\" ))"
+  },
+  {
+   "database": "PubMed",
+   "fields": "Title/Abstract [tiab] and MeSH",
+   "string": "( \"Disasters\"[Mesh] OR \"Relief Work\"[Mesh] OR \"Emergency Medical Services\"[Mesh] OR \"relief demand\"[tiab] OR \"humanitarian demand\"[tiab] OR \"humanitarian need*\"[tiab] OR \"relief suppl*\"[tiab] OR \"emergency suppl*\"[tiab] OR \"emergency material*\"[tiab] OR \"emergency resource*\"[tiab] OR \"emergency supply chain*\"[tiab] OR \"disaster relief\"[tiab] OR \"humanitarian logistic*\"[tiab] ) AND ( forecast*[tiab] OR predict*[tiab] OR estimat*[tiab] ) AND ( \"artificial intelligence\"[tiab] OR \"machine learning\"[tiab] OR \"deep learning\"[tiab] OR \"neural network*\"[tiab] OR \"data-driven\"[tiab] OR \"time series\"[tiab] OR \"large language model*\"[tiab] OR \"generative AI\"[tiab] OR fuzzy[tiab] OR \"case-based reasoning\"[tiab] OR \"grey model*\"[tiab] OR \"rough set*\"[tiab] )"
+  }
+ ]
+}

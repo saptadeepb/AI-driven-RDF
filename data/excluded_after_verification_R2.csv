@@ -1,0 +1,4 @@
+citekey,reason
+Wu2022Dynamic-LSTMChina,"Full text (publisher PDF): forecasts drought (3-month SPI) from atmospheric predictors only, with no link to relief requirements or impacts; meets exclusion criterion 2 (hazard forecast alone). Excluded at full-text re-assessment, R2."
+Sadeghi2026MLStochasticRouting,"Full text (publisher PDF): two-stage stochastic routing of water deliveries in which demand is an exogenous input; machine learning (deep embedded clustering) is used only to select travel-time scenarios; meets exclusion criterion 1. Excluded at full-text re-assessment, R2."
+Biswas2023PredictionTurkey,"Preprint (Research Square) of a study included in its peer-reviewed form (Biswas et al., 2024, IJDRR); meets exclusion criterion 3 (preprints) and would double-count the study. Excluded at full-text re-assessment, R2."

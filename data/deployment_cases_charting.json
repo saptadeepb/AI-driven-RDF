@@ -1,0 +1,521 @@
+[
+  {
+    "study_id": "Nair2023",
+    "citation": "Nair, R., Madsen, B., Kjaerum, A. (2023). An explainable forecasting system for humanitarian needs assessment. AI Magazine 44, 354-362. DOI 10.1002/aaai.12133",
+    "source_actually_read": {
+      "value": "ABSTRACT ONLY, and not of the AI Magazine article. Read: abstract of the closely related AAAI-23 (IAAI deployed-application track) paper with the same title and authors, AAAI 37(13), pp. 15569-15575, DOI 10.1609/aaai.v37i13.26846, via mlanthology.org and papers.cool. Wiley (AI Magazine) full text: fetch failed. AAAI OJS PDF: blocked by bot protection. Every field below except those quoting the abstract is NOT VERIFIED, not 'not reported'.",
+      "location": "AAAI-23 abstract (mlanthology.org/aaai/2023/nair2023aaai-explainable)",
+      "quote": "The system has been in deployment since early 2020"
+    },
+    "responding_organisation": {
+      "value": "Danish Refugee Council (DRC)",
+      "location": "AAAI-23 abstract",
+      "quote": "a machine learning system for forecasting forced displacement populations deployed at the Danish Refugee Council"
+    },
+    "builder": {
+      "value": "Not verified (full text not accessed). Abstract uses first person ('our annual Global Displacement Report'), implying DRC co-authorship. An external page (HDX Centre model review, not the paper) states DRC developed Foresight with technical partner IBM; do not cite this as the paper's statement.",
+      "location": "AAAI-23 abstract",
+      "quote": "It is central to our annual Global Displacement Report"
+    },
+    "country_region": {
+      "value": "Not verified (full text not accessed). Abstract names no countries.",
+      "location": "n/a",
+      "quote": "n/a"
+    },
+    "hazard_crisis_type": {
+      "value": "Forced displacement (humanitarian crises generally); finer typing not verified",
+      "location": "AAAI-23 abstract",
+      "quote": "forecasting forced displacement populations"
+    },
+    "events": {
+      "value": "Not verified (full text not accessed)",
+      "location": "n/a",
+      "quote": "n/a"
+    },
+    "forecast_target": {
+      "value": "Forced displacement population; long-term forecasts. Unit, spatial resolution and exact horizon not verified from this paper (study 2 by the same DRC team describes Foresight as national level, 1-3 years ahead, but that is a different source).",
+      "location": "AAAI-23 abstract",
+      "quote": "forecasting forced displacement populations"
+    },
+    "model_class": {
+      "value": "Not verified (full text not accessed). Abstract states the system is explainable and supports scenarios only.",
+      "location": "AAAI-23 abstract",
+      "quote": "It is explainable, providing evidence and context supporting the forecast."
+    },
+    "baseline_and_metrics": {
+      "value": "Not verified (full text not accessed). Secondary AI-generated summary (liner.com) mentions year-3 MAPE for Myanmar and Afghanistan and comparison with HRPs, but this is NOT a primary source and must not be charted.",
+      "location": "n/a",
+      "quote": "n/a"
+    },
+    "what_deployed_and_since_when": {
+      "value": "The Foresight forecasting system, in deployment at DRC since early 2020 (as of the 2023 paper).",
+      "location": "AAAI-23 abstract",
+      "quote": "The system has been in deployment since early 2020"
+    },
+    "how_outputs_entered_decisions": {
+      "value": "Powers several downstream DRC business functions; central to the annual Global Displacement Report, which informs DRC response planning; analysts generate scenario forecasts. Planning use, not trigger or funding release.",
+      "location": "AAAI-23 abstract",
+      "quote": "It is central to our annual Global Displacement Report which informs our response planning."
+    },
+    "scenario_capability": {
+      "value": "Analysts can generate forecasts under alternative conditions",
+      "location": "AAAI-23 abstract",
+      "quote": "it supports scenarios, whereby analysts are able to generate forecasts under alternative conditions"
+    },
+    "data_inputs_and_maintenance": {
+      "value": "Not verified (full text not accessed)",
+      "location": "n/a",
+      "quote": "n/a"
+    },
+    "barriers": {
+      "a_data": [
+        {
+          "value": "Not verified (full text not accessed)",
+          "location": "n/a",
+          "quote": "n/a"
+        }
+      ],
+      "b_infrastructure": [
+        {
+          "value": "Not verified (full text not accessed)",
+          "location": "n/a",
+          "quote": "n/a"
+        }
+      ],
+      "c_governance_trust_mandate": [
+        {
+          "value": "Not verified (full text not accessed)",
+          "location": "n/a",
+          "quote": "n/a"
+        }
+      ],
+      "d_model_quality_explainability_uncertainty": [
+        {
+          "value": "Not verified (full text not accessed). Abstract frames explainability as a design feature, not a reported barrier.",
+          "location": "AAAI-23 abstract",
+          "quote": "It is explainable, providing evidence and context supporting the forecast."
+        }
+      ],
+      "e_organisational_resourcing_ethics": [
+        {
+          "value": "Not verified (full text not accessed)",
+          "location": "n/a",
+          "quote": "n/a"
+        }
+      ],
+      "f_other": [
+        {
+          "value": "Abstract announces a discussion of lessons learnt and technical limitations and challenges; their content was not accessible.",
+          "location": "AAAI-23 abstract",
+          "quote": "We describe the system, key outcomes, lessons learnt, along with technical limitations and challenges"
+        }
+      ]
+    },
+    "reported_outcomes_impact": {
+      "value": "Abstract states 'key outcomes' are described; content not verified. Only verifiable outcome: system powers downstream DRC functions and the Global Displacement Report.",
+      "location": "AAAI-23 abstract",
+      "quote": "powers several downstream business functions within DRC"
+    },
+    "deployment_status_judgement": {
+      "value": "MEETS operational-deployment definition (named organisation DRC; in deployment since early 2020; used in response planning). Use is planning/reporting, not trigger-based anticipatory action. Judgement rests on the abstract only.",
+      "location": "AAAI-23 abstract",
+      "quote": "in deployment since early 2020 and powers several downstream business functions within DRC"
+    }
+  },
+  {
+    "study_id": "Kjaerum2025",
+    "citation": "Kjaerum, A., Madsen, B. S. (2025). Pushing the boundaries of anticipatory action using machine learning. Data & Policy 7, e8. DOI 10.1017/dap.2024.88",
+    "source_actually_read": {
+      "value": "FULL TEXT (open-access PDF from Cambridge Core, pages e8-1 to e8-10+), read through a fetch tool that extracts and condenses text; quotes are verbatim fragments returned by three targeted passes. Page numbers inferred from running footers. Recommend spot-check against the PDF before quoting in the manuscript.",
+      "location": "Cambridge Core PDF S2632324924000889a.pdf",
+      "quote": "using them for anticipatory action in South Sudan and Burkina Faso"
+    },
+    "responding_organisation": {
+      "value": "Danish Refugee Council (DRC)",
+      "location": "Abstract, p. e8-1",
+      "quote": "the Danish Refugee Council has already developed several machine learning models"
+    },
+    "builder": {
+      "value": "DRC (in-house); authors are DRC staff (affiliation per summary of header, not separately quoted). Funding: ECHO grant.",
+      "location": "Funding statement, p. e8-10",
+      "quote": "This research was supported by a grant from the ECHO."
+    },
+    "country_region": {
+      "value": "AHEAD: Liptako-Gourma region (Burkina Faso, Mali, Niger); hindcast evaluation on Burkina Faso (45 provinces); anticipatory action case in Akobo, South Sudan. Foresight: national level, 26 countries in its accuracy evaluation.",
+      "location": "Abstract, p. e8-1; Section 2, p. e8-4; Section 4.1, pp. e8-8 to e8-10",
+      "quote": "Liptako-Gourma region in Sahel, covering Burkina Faso, Mali, and Niger."
+    },
+    "hazard_crisis_type": {
+      "value": "Conflict-induced displacement",
+      "location": "Section 5, p. e8-10",
+      "quote": "These models have proven to be able to accurately predict conflict-induced displacement"
+    },
+    "events": {
+      "value": "Renewed Lou Nuer and Murle conflict around Akobo, South Sudan, late 2022 (as summarised; the exact sentence was not extracted verbatim)",
+      "location": "Section 4.1 'Case: acting ahead of conflict in South Sudan', pp. e8-8 to e8-9",
+      "quote": "Working with local peace committees, the DRC set up community action plans"
+    },
+    "forecast_target": {
+      "value": "Foresight: displacement, national level, 1-3 years ahead (annual). AHEAD: stock of internally displaced people at Admin 1 and Admin 2, 3-4 months ahead, monthly time steps.",
+      "location": "Section 2, pp. e8-3 to e8-4",
+      "quote": "predicting displacement at the Admin 1 and Admin 2 level 3-4 months into the future"
+    },
+    "forecast_target_foresight": {
+      "value": "National displacement, 1-3 years ahead",
+      "location": "Section 2, p. e8-3",
+      "quote": "forecast displacement at the national level 1-3 years into the future"
+    },
+    "model_class": {
+      "value": "Foresight: ensemble of gradient-boosted trees and linear models (point forecasts). AHEAD: Bayesian state-space model with covariates (hurdle component per summary).",
+      "location": "Section 2, p. e8-4",
+      "quote": "The model employs an ensemble of gradient-boosted trees and linear models"
+    },
+    "model_class_ahead": {
+      "value": "Bayesian state-space model for stock of IDPs",
+      "location": "Section 2, p. e8-4",
+      "quote": "the Bayesian state-space model for the stock number of internally displaced people."
+    },
+    "baseline_and_metrics": {
+      "value": "Foresight: mean absolute margin of error 19% (214 forecasts, 26 countries; median 11%); vs. humanitarian response plans on 123 plans: plans 23% (median 17%), Foresight 19% (median 12%). Foresight underestimates in 60% of forecasts. AHEAD: MAPE 15% (315 hindcasts, Burkina Faso); two baselines (constant level; 24-month trend) both 21%. AHEAD underestimates in 52%. Classification at 1,200-person threshold: 69% correct actions, 17% false negatives, 14% false positives; at 10,000 actions taken only 12% of the time. Surge error: 21% when increase >4,759 over three months; 34% when relative increase >35.4%; correlation 0.74 (sample sizes and surge figures from summary pass, not separately verbatim-verified).",
+      "location": "Section 2, pp. e8-4 to e8-5 (incl. confusion table on p. e8-5)",
+      "quote": "the mean absolute percentage error is 15%"
+    },
+    "baseline_quote": {
+      "value": "Baselines for AHEAD",
+      "location": "Section 2, p. e8-5",
+      "quote": "Both approaches have a mean average percentage error of 21%."
+    },
+    "classification_quote": {
+      "value": "Threshold classification performance",
+      "location": "Section 2, p. e8-5",
+      "quote": "The remaining would include 17% false negatives and 14% false positives."
+    },
+    "what_deployed_and_since_when": {
+      "value": "DRC predictive analytics since 2017 (Foresight); AHEAD project initiated 2020 'to support operational response'. Foresight's intended use is yearly strategic planning (stated as aim). No statement found that Foresight is 'in use since' a date in this paper.",
+      "location": "Section 5, p. e8-10; Section 2, p. e8-4",
+      "quote": "DRC has since 2017 leveraged machine learning to forecast displacement"
+    },
+    "how_outputs_entered_decisions": {
+      "value": "Akobo, South Sudan: a model trigger (forecast increase of 1,000 displaced) to mobilise DRC staff and begin needs assessment, baselines and beneficiary identification; community indicators (via local peace committees, protection monitoring) as second trigger for dialogue, awareness and pre-positioning (future/conditional tense). Paper does NOT state the trigger was reached, actions were implemented, or any funding release mechanism. Burkina Faso use asserted in abstract only; no case described.",
+      "location": "Section 4.1, pp. e8-9 to e8-10",
+      "quote": "the trigger level was set at the forecasted increase in number of displaced people"
+    },
+    "decision_quote_actions": {
+      "value": "Initial action linked to model trigger",
+      "location": "Section 4.1, p. e8-9",
+      "quote": "to mobilize DRC staff and conduct initial needs assessment, baselines and beneficiary identification"
+    },
+    "data_inputs_and_maintenance": {
+      "value": "Displacement outcome: official displacement figures (source agency not named). AHEAD covariates: conflict (ACLED), Vegetation Health Index (FAO), food prices (WFP), Cadre Harmonise, WHO (child mortality), Project 21 protection data (about 15,000 interviews, 2,500 localities, 2022). Community data: Protection Monitoring System (South Sudan), Project 21 (Sahel). Update cadence / maintenance: not reported. Replication data and code on GitHub.",
+      "location": "Section 2, p. e8-4; Section 3 table, p. e8-5; Data availability statement",
+      "quote": "Conflict ACLED"
+    },
+    "barriers": {
+      "a_data": [
+        {
+          "value": "Subnational displacement data sparse and sporadic",
+          "location": "Section 2, p. e8-4",
+          "quote": "the data on displacement at the subnational level is often sparse and sporadic"
+        },
+        {
+          "value": "Official figures carry uncertainty not modelled",
+          "location": "Section 2, p. e8-4",
+          "quote": "These numbers exist with some uncertainty"
+        },
+        {
+          "value": "Expansion requires improved data landscape and systems",
+          "location": "Section 2, p. e8-3",
+          "quote": "will be challenging without improvements to the data landscape"
+        },
+        {
+          "value": "Insufficient protection-monitoring interviews in South Sudan",
+          "location": "Section 3, pp. e8-5 to e8-6",
+          "quote": "the protection monitoring data does not have enough interviews"
+        },
+        {
+          "value": "Displacement and P21 data do not overlap, so joint trigger untested",
+          "location": "Section 3, p. e8-6",
+          "quote": "the overlap between the displacement data and P21 data does not allow to compare"
+        }
+      ],
+      "b_infrastructure": [
+        {
+          "value": "Systems/tools needed to integrate more data (no computing or connectivity barrier for the model reported; connectivity appears only as a field activity, i.e. setting up hotspots)",
+          "location": "Section 2, p. e8-3",
+          "quote": "Systems and tools are needed to enable the integration of more data"
+        }
+      ],
+      "c_governance_trust_mandate": [
+        {
+          "value": "Turning predictions into action is not straightforward; predictions should not stand alone",
+          "location": "Section 3, p. e8-5",
+          "quote": "Turning the displacement prediction into actions is not straightforward"
+        },
+        {
+          "value": "Political neutrality risk of acting ahead of conflict",
+          "location": "Section 4, p. e8-6",
+          "quote": "Acting ahead of conflict-induced displacement can bring into question political neutrality"
+        },
+        {
+          "value": "Predictions may prompt pre-emptive violence by a conflict party",
+          "location": "Section 4, p. e8-8",
+          "quote": "they take pre-emptive, violent measures against the other side in the conflict"
+        }
+      ],
+      "d_model_quality_explainability_uncertainty": [
+        {
+          "value": "Cannot capture onsets or unprecedented surges",
+          "location": "Section 5, p. e8-10",
+          "quote": "are not able to fully capture unprecedented surges in displacement"
+        },
+        {
+          "value": "Onset prediction difficult",
+          "location": "Section 2, p. e8-5",
+          "quote": "predicting the onset or unprecedented escalation in displacement due to conflict is difficult"
+        },
+        {
+          "value": "Systematic underestimation by Foresight",
+          "location": "Section 2, p. e8-4",
+          "quote": "60% of the forecasts have underestimated the level of displacement"
+        },
+        {
+          "value": "Threshold trade-off: low thresholds costly false positives; threshold depends on capacity",
+          "location": "location not pinned (fetch output); Section 2 or 4",
+          "quote": "Where to place the exact threshold depends largely on the capacity to respond"
+        },
+        {
+          "value": "Need for ground truthing",
+          "location": "Section 5, p. e8-10",
+          "quote": "they cannot stand alone and need ground truthing"
+        }
+      ],
+      "e_organisational_resourcing_ethics": [
+        {
+          "value": "Ethical and practical concerns with model-only decisions",
+          "location": "Section 3, p. e8-6",
+          "quote": "entails both ethical and practical concerns"
+        },
+        {
+          "value": "Reputational risk of sharing predictions with communities",
+          "location": "Section 4",
+          "quote": "entails significant reputational risks for humanitarian actors"
+        },
+        {
+          "value": "Cost/waste of acting on false alarms (high-cost actions)",
+          "location": "Section 4",
+          "quote": "which comes at a high cost and can be a waste of resources"
+        },
+        {
+          "value": "Funding gap context",
+          "location": "Abstract, p. e8-1",
+          "quote": "Humanitarian needs are therefore increasingly outgrowing the available humanitarian funding"
+        }
+      ],
+      "f_other": [
+        {
+          "value": "Lack of outcome evidence for approaches",
+          "location": "Section 5, p. e8-10",
+          "quote": "Further evidence is now needed on the different outcomes and impact of the approaches"
+        }
+      ]
+    },
+    "reported_outcomes_impact": {
+      "value": "Not reported for DRC deployments (no activation, reach or avoided-loss figures for Akobo or Burkina Faso). Only external evidence on anticipatory action generally is cited.",
+      "location": "Section 5, p. e8-10",
+      "quote": "Further evidence is now needed on the different outcomes and impact"
+    },
+    "deployment_status_judgement": {
+      "value": "PARTIALLY MEETS. Named organisation (DRC) built and uses the models for anticipatory action design (South Sudan trigger set, community action plans set up). But the paper does not document a trigger being reached, actions delivered, or Burkina Faso operations; Foresight's planning use is stated as an aim. Best described as organisational operational use asserted, with activation undocumented.",
+      "location": "Section 4.1, p. e8-9",
+      "quote": "the DRC set up community action plans to act ahead of displacement"
+    }
+  },
+  {
+    "study_id": "Sedhain2025",
+    "citation": "Sedhain, S., van den Homberg, M., Teklesadik, A., van Aalst, M., Kerle, N. (2025). Evaluating impact-based forecasting models for tropical cyclone anticipatory action. IJDRR 129, 105782. DOI 10.1016/j.ijdrr.2025.105782",
+    "source_actually_read": {
+      "value": "FULL TEXT (PDF hosted by Anticipation Hub, anticipation-hub.org/Documents/Academic_Papers/Sedhain_etal_2025.pdf), read through a fetch tool with three targeted passes; page numbers are printed journal footers. ScienceDirect not accessed. Spot-check recommended.",
+      "location": "Anticipation Hub PDF",
+      "quote": "the statistical model was operationally deployed to trigger AA"
+    },
+    "responding_organisation": {
+      "value": "Statistical-IBF: Philippine Red Cross (PRC) Typhoon Early Action Protocol (T-EAP). Elementary-IBF: Bangladesh Red Crescent Society (BDRCS) Cyclone EAP (adapted post hoc to the Philippines by the authors).",
+      "location": "Section 1 Introduction, p. 3; Section 2.1, p. 5",
+      "quote": "formalized the Typhoon Early Action Protocol (T-EAP) based on a statistical model"
+    },
+    "builder": {
+      "value": "Statistical model: jointly developed by PRC, 510 (Netherlands Red Cross) and German Red Cross (GRC) per summary; elementary model: BDRCS, Climate Centre and GRC. Authors: University of Twente ITC; 510.",
+      "location": "Section 1 Introduction, p. 3; article header p. 1",
+      "quote": "jointly developed by the Philippine Red Cross (PRC), 510 - the Netherlands Red Cross"
+    },
+    "country_region": {
+      "value": "Philippines (case study, municipalities); Bangladesh (origin of elementary model)",
+      "location": "Abstract; Section 2.1, pp. 3-5",
+      "quote": "The elementary model adapted for the Philippines context would have triggered 72 h before landfall"
+    },
+    "hazard_crisis_type": {
+      "value": "Tropical cyclone (typhoon)",
+      "location": "Title; Section 2.1",
+      "quote": "Evaluating impact-based forecasting models for tropical cyclone anticipatory action"
+    },
+    "events": {
+      "value": "Typhoon Kammuri (2019), landfall Sorsogon 2 December 2019; forecast track error about 120 km",
+      "location": "Section 2.1, p. 5",
+      "quote": "the storm's actual path lay roughly 120 km south of the earlier forecast"
+    },
+    "forecast_target": {
+      "value": "Fraction of houses completely damaged per municipality. Trigger: >10% houses completely damaged in more than three municipalities at 72 h before landfall (paper also reports actual trigger at 81 h). Equivalent to government's 15% forecasted-affected population threshold.",
+      "location": "Section 2.2, p. 5",
+      "quote": "to predict the fraction of houses expected to be completely damaged within a municipality"
+    },
+    "trigger_definition": {
+      "value": "Trigger rule",
+      "location": "Section 2.2, p. 5",
+      "quote": "The model activates AA if, at 72 h before landfall, the forecasted impact"
+    },
+    "model_class": {
+      "value": "Statistical-IBF: XGBoost, trained on 37 historical TCs (tested on 39 per Section 2.4; inconsistency in paper). Elementary-IBF: wind damage curves with hazard threshold and weighted vulnerability index.",
+      "location": "Section 2.2, p. 5; Section 2.3, pp. 5-6",
+      "quote": "This machine learning model (XGBoost) [89] was chosen by implementers"
+    },
+    "baseline_and_metrics": {
+      "value": "Single-event (Kammuri) comparison, municipalities at 10% damage threshold (Table 4): Statistical-IBF at 81 h: TP 1, FP 3, FN 35, POD 0.03, FAR 0.75. Elementary-IBF at 72 h: TP 6, FP 4, FN 30, POD 0.17, FAR 0.40. Sensitivity (Tables 5-6, from summary pass): elementary POD 0.29 at 25% threshold. No external naive baseline.",
+      "location": "Section 3.2 'Single-event model performance', Table 4, p. 13",
+      "quote": "Accuracy metrics for IBF models showing the number of municipalities predicted"
+    },
+    "what_deployed_and_since_when": {
+      "value": "Statistical-IBF model as the PRC T-EAP trigger, approved as an EAP in 2019; operational during Kammuri. BDRCS Cyclone EAP elementary model since 2018 per text (reference dated 2021). Both protocols updated in 2024. The R Shiny portal is a research prototype, not deployed.",
+      "location": "Section 1, p. 3; Section 4.4, p. 15; Section 4.6, p. 15",
+      "quote": "was approved as an EAP for the Philippines in 2019"
+    },
+    "how_outputs_entered_decisions": {
+      "value": "Trigger exceeding threshold activates the T-EAP early actions in triggered municipalities: shelter-strengthening kits, early harvesting support, livestock evacuation; prearranged financing is part of EAP concept. Statistical model triggered at 81 h for Kammuri. Whether actions were delivered or funds released is not reported (DREF report only cited in references).",
+      "location": "Section 2.2, p. 5; Section 3.2, pp. 11-12",
+      "quote": "which was operational during the event, triggered early action 81 h before landfall"
+    },
+    "early_actions_quote": {
+      "value": "T-EAP early actions",
+      "location": "Section 2.2, p. 5",
+      "quote": "through three early actions: the provision of temporary shelter-strengthening kits"
+    },
+    "data_inputs_and_maintenance": {
+      "value": "Statistical: track, wind speed, distance to track (ECMWF forecasts operationally; IBTrACS for training), GPM rainfall, wind field model, NOAH landslide and storm-surge maps, socio-economic/physical vulnerability and exposure. Elementary (Table 2): IBTrACS, ECMWF, ASTI-DOST wind observations, NDRRMC damage records, 2015 PSA census. NDRRMC records manually retrieved. Maintenance cadence not reported.",
+      "location": "Section 2.2, p. 5; Section 2.3, p. 6; Table 2",
+      "quote": "sourced from ECMWF forecasts for operational use"
+    },
+    "barriers": {
+      "a_data": [
+        {
+          "value": "Impact records aggregated or missing in developing countries",
+          "location": "Section 1, p. 2",
+          "quote": "official impact records in some developing countries remain aggregated at administrative levels"
+        },
+        {
+          "value": "No long-term systematic impact record in Bangladesh",
+          "location": "Section 2.3, p. 6",
+          "quote": "Bangladesh lacks a long-term, systematic record of storm impacts"
+        },
+        {
+          "value": "Damage records not machine-readable; manual retrieval",
+          "location": "Section 2.3, p. 6",
+          "quote": "The records were not in a readily downloadable, tabular format"
+        },
+        {
+          "value": "Outdated census inputs and single-event curves",
+          "location": "Section 4.2, p. 14",
+          "quote": "single-event damage curves and outdated census inputs"
+        }
+      ],
+      "b_infrastructure": [
+        {
+          "value": "Computing/connectivity: not reported. Only technical-capacity remark (see e).",
+          "location": "n/a",
+          "quote": "n/a"
+        }
+      ],
+      "c_governance_trust_mandate": [
+        {
+          "value": "Transparency needed for trust and accountability",
+          "location": "Section 1, p. 2",
+          "quote": "transparency is essential for trust and accountability"
+        },
+        {
+          "value": "Threshold setting as trade-off between rapid activation and resource efficiency",
+          "location": "Section 4.3, p. 14",
+          "quote": "they reflect trade-offs between rapid activation and resource efficiency"
+        },
+        {
+          "value": "Move to hybrid triggers combining data and local judgment",
+          "location": "Section 4.5, p. 15",
+          "quote": "combine data-driven triggers with local, context-specific judgment"
+        },
+        {
+          "value": "Emerging early-warning-early-action systems in some regions",
+          "location": "Section 4.6, p. 15",
+          "quote": "where new Early Warning Early Action systems are still emerging"
+        }
+      ],
+      "d_model_quality_explainability_uncertainty": [
+        {
+          "value": "ML models act as black boxes",
+          "location": "Section 1, p. 2",
+          "quote": "but often function as black boxes, making them difficult to interpret."
+        },
+        {
+          "value": "Reduced transparency for non-technical users",
+          "location": "Section 4.1, p. 14",
+          "quote": "at the expense of reduced transparency for non-technical users"
+        },
+        {
+          "value": "Low event accuracy: statistical model POD 0.03, FAR 0.75; track error 120 km",
+          "location": "Table 4, p. 13; Section 2.1, p. 5",
+          "quote": "the storm's actual path lay roughly 120 km south of the earlier forecast"
+        },
+        {
+          "value": "Forecast uncertainty a fundamental limit; protocols updated 2024",
+          "location": "Section 4.4, p. 15",
+          "quote": "Since Kammuri, both protocols have been updated in 2024 to address these challenges."
+        },
+        {
+          "value": "Single-event analysis limits generalisability",
+          "location": "Section 4.7, p. 15",
+          "quote": "The analysis rests on a single event, limiting generalizability."
+        },
+        {
+          "value": "Operational modelling limitations: static census, subjective weights, simplified wind field",
+          "location": "Section 4.7, p. 15",
+          "quote": "potential biases in user-defined weights, or oversimplification of wind field estimation"
+        }
+      ],
+      "e_organisational_resourcing_ethics": [
+        {
+          "value": "Limited technical capacity to manage complex models",
+          "location": "Section 4.6, p. 15",
+          "quote": "These regions often lack the technical capacity to manage highly complex models"
+        },
+        {
+          "value": "Risk of acting in vain (false alarms)",
+          "location": "Section 4.6, p. 15",
+          "quote": "the risk of \"acting in vain.\""
+        }
+      ],
+      "f_other": [
+        {
+          "value": "No conclusion on universal superiority of either approach",
+          "location": "Section 4.7, p. 15",
+          "quote": "we cannot provide definite conclusions about the universal superiority of one approach"
+        }
+      ]
+    },
+    "reported_outcomes_impact": {
+      "value": "Not reported (no people reached, actions delivered or avoided losses). Only impact of the event (nearly two million affected) and the trigger timing are reported.",
+      "location": "Section 2.1, p. 5",
+      "quote": "nearly two million people"
+    },
+    "deployment_status_judgement": {
+      "value": "MEETS for the statistical-IBF model only, with caveat. The paper documents that PRC's XGBoost model was the operational T-EAP trigger and triggered for Kammuri. The study itself is a retrospective evaluation; the elementary model's Philippine application is hypothetical (post hoc), and delivery/outcomes of early action are not reported. Coding as 'operational deployment by a named responding organisation' is defensible on the text, not just the title.",
+      "location": "Section 1, p. 3; Section 3.2, pp. 11-12; Section 2.3, p. 5",
+      "quote": "where the statistical model was operationally deployed to trigger AA"
+    }
+  }
+]

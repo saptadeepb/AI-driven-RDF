@@ -1,0 +1,8 @@
+{
+ "_comment": "Fill after executing the harmonized strategy (Supplementary S5); leave a value null until it is known.",
+ "date_executed": null,
+ "records_identified_total": null,
+ "new_records_after_deduplication": null,
+ "new_records_full_text_assessed": null,
+ "new_studies_included": null
+}
