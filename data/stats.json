@@ -1,0 +1,763 @@
+{
+ "N_all": 110,
+ "N_prim": 96,
+ "N_rev": 14,
+ "N_wave1": 74,
+ "N_wave2": 36,
+ "year_min": 2007,
+ "year_max": 2026,
+ "N_since2023": 52,
+ "pct_since2023": 47.3,
+ "by_year": {
+  "2007": 2,
+  "2008": 1,
+  "2009": 0,
+  "2010": 3,
+  "2011": 1,
+  "2012": 1,
+  "2013": 2,
+  "2014": 1,
+  "2015": 0,
+  "2016": 5,
+  "2017": 4,
+  "2018": 3,
+  "2019": 6,
+  "2020": 6,
+  "2021": 9,
+  "2022": 14,
+  "2023": 17,
+  "2024": 11,
+  "2025": 16,
+  "2026": 8
+ },
+ "method_family": {
+  "Statistical / time series": {
+   "n": 39,
+   "pct": 40.6
+  },
+  "Classical machine learning": {
+   "n": 33,
+   "pct": 34.4
+  },
+  "Deep learning / neural": {
+   "n": 24,
+   "pct": 25.0
+  },
+  "Knowledge-based (CBR, RBR, fuzzy, grey)": {
+   "n": 20,
+   "pct": 20.8
+  },
+  "Optimisation / simulation": {
+   "n": 23,
+   "pct": 24.0
+  },
+  "Generative AI / LLM": {
+   "n": 4,
+   "pct": 4.2
+  }
+ },
+ "n_hybrid": 45,
+ "pct_hybrid": 46.9,
+ "n_no_family": 8,
+ "mf_label_sum_pct": 149.0,
+ "objective": {
+  "denominator": 110,
+  "denominator_label": "all included sources",
+  "items": {
+   "Predictive modelling and forecasting": {
+    "n": 58,
+    "pct": 52.7
+   },
+   "Disaster preparedness and relief planning": {
+    "n": 18,
+    "pct": 16.4
+   },
+   "Humanitarian logistics and supply chain management": {
+    "n": 15,
+    "pct": 13.6
+   },
+   "Methodological or technology review": {
+    "n": 12,
+    "pct": 10.9
+   },
+   "Dynamic and adaptive demand estimation": {
+    "n": 3,
+    "pct": 2.7
+   },
+   "Healthcare and medical service demand": {
+    "n": 3,
+    "pct": 2.7
+   },
+   "Community engagement and social impact": {
+    "n": 1,
+    "pct": 0.9
+   }
+  }
+ },
+ "disaster": {
+  "denominator": 90,
+  "denominator_label": "primary studies",
+  "items": {
+   "Multi-hazard/General": {
+    "n": 38,
+    "pct": 42.2
+   },
+   "Earthquake": {
+    "n": 17,
+    "pct": 18.9
+   },
+   "Hurricane/Cyclone": {
+    "n": 11,
+    "pct": 12.2
+   },
+   "Flood": {
+    "n": 10,
+    "pct": 11.1
+   },
+   "Biological/Epidemic": {
+    "n": 7,
+    "pct": 7.8
+   },
+   "Technological/Other": {
+    "n": 3,
+    "pct": 3.3
+   },
+   "Drought/Food insecurity": {
+    "n": 2,
+    "pct": 2.2
+   },
+   "Conflict/Displacement": {
+    "n": 2,
+    "pct": 2.2
+   }
+  }
+ },
+ "horizon": {
+  "denominator": 65,
+  "denominator_label": "primary studies reporting a horizon",
+  "items": {
+   "Short-to-long": {
+    "n": 39,
+    "pct": 60.0
+   },
+   "Long-term": {
+    "n": 14,
+    "pct": 21.5
+   },
+   "Short-term": {
+    "n": 7,
+    "pct": 10.8
+   },
+   "Dynamic/real-time": {
+    "n": 5,
+    "pct": 7.7
+   }
+  }
+ },
+ "linearity": {
+  "denominator": 88,
+  "denominator_label": "primary studies with an identifiable method",
+  "items": {
+   "Non-linear": {
+    "n": 64,
+    "pct": 72.7
+   },
+   "Combined": {
+    "n": 12,
+    "pct": 13.6
+   },
+   "Linear": {
+    "n": 12,
+    "pct": 13.6
+   }
+  }
+ },
+ "paradigm": {
+  "denominator": 65,
+  "denominator_label": "primary studies reporting a learning paradigm",
+  "items": {
+   "Supervised": {
+    "n": 49,
+    "pct": 75.4
+   },
+   "Unsupervised": {
+    "n": 6,
+    "pct": 9.2
+   },
+   "Both": {
+    "n": 6,
+    "pct": 9.2
+   },
+   "Not applicable": {
+    "n": 3,
+    "pct": 4.6
+   },
+   "Reinforcement": {
+    "n": 1,
+    "pct": 1.5
+   }
+  }
+ },
+ "author_country": {
+  "denominator": 82,
+  "denominator_label": "all included sources",
+  "items": {
+   "China": {
+    "n": 23,
+    "pct": 28.0
+   },
+   "USA": {
+    "n": 15,
+    "pct": 18.3
+   },
+   "India": {
+    "n": 7,
+    "pct": 8.5
+   },
+   "United Kingdom": {
+    "n": 5,
+    "pct": 6.1
+   },
+   "Iran": {
+    "n": 4,
+    "pct": 4.9
+   },
+   "Australia": {
+    "n": 4,
+    "pct": 4.9
+   },
+   "Taiwan": {
+    "n": 3,
+    "pct": 3.7
+   },
+   "Netherlands": {
+    "n": 2,
+    "pct": 2.4
+   },
+   "Turkey": {
+    "n": 2,
+    "pct": 2.4
+   },
+   "Brazil": {
+    "n": 2,
+    "pct": 2.4
+   },
+   "Chile": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "France": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Rwanda": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Switzerland": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Germany": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Saudi Arabia": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Italy": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Pakistan": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Portugal": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Mexico": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Qatar": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Thailand": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Iraq": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Malaysia": {
+    "n": 1,
+    "pct": 1.2
+   },
+   "Denmark": {
+    "n": 1,
+    "pct": 1.2
+   }
+  }
+ },
+ "focus_country": {
+  "denominator": 87,
+  "denominator_label": "all included sources",
+  "items": {
+   "China": {
+    "n": 24,
+    "pct": 27.6
+   },
+   "Global": {
+    "n": 21,
+    "pct": 24.1
+   },
+   "USA": {
+    "n": 13,
+    "pct": 14.9
+   },
+   "India": {
+    "n": 4,
+    "pct": 4.6
+   },
+   "Iran": {
+    "n": 3,
+    "pct": 3.4
+   },
+   "Australia": {
+    "n": 3,
+    "pct": 3.4
+   },
+   "Turkey": {
+    "n": 3,
+    "pct": 3.4
+   },
+   "Taiwan": {
+    "n": 2,
+    "pct": 2.3
+   },
+   "United Kingdom": {
+    "n": 2,
+    "pct": 2.3
+   },
+   "Chile": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "France": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Rwanda": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Nepal": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Niger": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Europe (multi-country)": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Italy": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Brazil": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Pakistan": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Portugal": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Mexico": {
+    "n": 1,
+    "pct": 1.1
+   },
+   "Sahel (multi-country)": {
+    "n": 1,
+    "pct": 1.1
+   }
+  }
+ },
+ "publisher": {
+  "denominator": 110,
+  "denominator_label": "all included sources",
+  "items": {
+   "Elsevier": {
+    "n": 64,
+    "pct": 58.2
+   },
+   "Springer": {
+    "n": 13,
+    "pct": 11.8
+   },
+   "IEEE": {
+    "n": 10,
+    "pct": 9.1
+   },
+   "Other": {
+    "n": 6,
+    "pct": 5.5
+   },
+   "Taylor & Francis": {
+    "n": 5,
+    "pct": 4.5
+   },
+   "Wiley": {
+    "n": 5,
+    "pct": 4.5
+   },
+   "MDPI": {
+    "n": 4,
+    "pct": 3.6
+   },
+   "Emerald": {
+    "n": 3,
+    "pct": 2.7
+   }
+  }
+ },
+ "journal": {
+  "denominator": 110,
+  "denominator_label": "all included sources",
+  "items": {
+   "International Journal of Disaster Risk Reduction": {
+    "n": 17,
+    "pct": 15.5
+   },
+   "Transportation Research Part E: Logistics and Transportation Review": {
+    "n": 5,
+    "pct": 4.5
+   },
+   "Socio-Economic Planning Sciences": {
+    "n": 5,
+    "pct": 4.5
+   },
+   "Annals of Operations Research": {
+    "n": 5,
+    "pct": 4.5
+   },
+   "Expert Systems with Applications": {
+    "n": 4,
+    "pct": 3.6
+   },
+   "International Journal of Production Economics": {
+    "n": 4,
+    "pct": 3.6
+   },
+   "Engineering Applications of Artificial Intelligence": {
+    "n": 4,
+    "pct": 3.6
+   },
+   "Journal of the Operational Research Society": {
+    "n": 3,
+    "pct": 2.7
+   },
+   "IEEE Access": {
+    "n": 3,
+    "pct": 2.7
+   },
+   "Progress in Disaster Science": {
+    "n": 3,
+    "pct": 2.7
+   },
+   "Journal of Operations Management": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "BMJ Open": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "Natural Hazards": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "Chaos, Solitons and Fractals": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "BMC Medical Informatics and Decision Making": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "Computers and Industrial Engineering": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "Journal of Humanitarian Logistics and Supply Chain Management": {
+    "n": 2,
+    "pct": 1.8
+   },
+   "IEEE SOLI 2007": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Atmospheric Environment": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Applied Mathematical Modelling": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Systems Science": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Transportation Research Procedia": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Journal of the International AIDS Society": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "PLOS ONE": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "European Journal of Operational Research": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE Transactions on Engineering Management": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE Transactions on Computational Social Systems": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IFAC-PapersOnLine": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Energy, Sustainability and Society": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Health Planning and Management": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Environmental Research and Public Health": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Journal of Environmental Management": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE/I&CPS Asia 2021": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Electronics": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Complex and Intelligent Systems": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "BMC Emergency Medicine": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE Transactions on Big Data": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE Transactions on Fuzzy Systems": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Mathematics": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Forecasting": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Energy Reports": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Nonlinear Analysis and Applications": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IISE Transactions": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Information Management": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Telematics and Informatics": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Computers and Electronics in Agriculture": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Journal of Business Research": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Data Science and Analytics": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "International Journal of Information Management Data Insights": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Computers and Electrical Engineering": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Ecological Indicators": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Natural Hazards Review": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "IEEE Transactions on Emerging Topics in Computing": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Systems": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Urban Climate": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Grey Systems": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Reliability Engineering and System Safety": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "AI Magazine": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Data and Policy": {
+    "n": 1,
+    "pct": 0.9
+   },
+   "Information Processing and Management": {
+    "n": 1,
+    "pct": 0.9
+   }
+  }
+ },
+ "data_source": {
+  "denominator": 78,
+  "denominator_label": "primary studies",
+  "items": {
+   "Historical records": {
+    "n": 62,
+    "pct": 79.5
+   },
+   "Mixed": {
+    "n": 7,
+    "pct": 9.0
+   },
+   "Survey/interview": {
+    "n": 4,
+    "pct": 5.1
+   },
+   "Social media": {
+    "n": 4,
+    "pct": 5.1
+   },
+   "Simulation": {
+    "n": 1,
+    "pct": 1.3
+   }
+  }
+ },
+ "sustainability": {
+  "n_yes": 5,
+  "pct_yes": 5.2,
+  "n_no": 91,
+  "pct_no": 94.8,
+  "denominator": 96
+ },
+ "stochastic": {
+  "n_yes": 25,
+  "pct_yes": 26.0,
+  "n_no": 71,
+  "pct_no": 74.0,
+  "denominator": 96
+ },
+ "performance_evidence": {
+  "Not reported": {
+   "n": 74,
+   "pct": 77.1
+  },
+  "Comparative benchmark": {
+   "n": 12,
+   "pct": 12.5
+  },
+  "Qualitative/none": {
+   "n": 7,
+   "pct": 7.3
+  },
+  "Single-model metric": {
+   "n": 3,
+   "pct": 3.1
+  }
+ },
+ "n_comparative": 12,
+ "pct_comparative": 12.5,
+ "n_any_metric": 15,
+ "pct_any_metric": 15.6,
+ "deployment": {
+  "Not reported": {
+   "n": 69,
+   "pct": 71.9
+  },
+  "Real-data case study": {
+   "n": 23,
+   "pct": 24.0
+  },
+  "Operational deployment": {
+   "n": 3,
+   "pct": 3.1
+  },
+  "Synthetic/illustrative": {
+   "n": 1,
+   "pct": 1.0
+  }
+ },
+ "n_operational": 3,
+ "pct_operational": 3.1
+}

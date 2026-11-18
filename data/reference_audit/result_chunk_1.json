@@ -1,0 +1,355 @@
+[
+  {
+    "key": "ALBarqawi2026FloodInundationDeepLearning",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://researchwith.njit.edu/en/persons/abdallah-khreishah/",
+    "comment": "Authors, journal, vol 31, art. 100678, 2026 match NJIT research portal. DOI not shown there; consistent with the article number."
+  },
+  {
+    "key": "AbdulazeezMalefakis2022HumanitarianPersons",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://link.springer.com/book/10.1007/978-3-030-99784-7",
+    "comment": "Chapter 4, pp. 85-132, DOI 10.1007/978-3-030-99784-7_4 confirmed on SpringerLink. Optional: the imprint is Palgrave Macmillan (Cham); 'Springer International Publishing' is acceptable."
+  },
+  {
+    "key": "Abdulrashid2026AIDecisionSupport",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v210y2026ics1366554526001602.html",
+    "comment": "All fields match (vol 210, art. 104821)."
+  },
+  {
+    "key": "Aboualola2023EdgeIntegration",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://qspace.qu.edu.qa/handle/10576/53525?show=full",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Abreu2023Data-drivenServices",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/soceps/v86y2023ics0038012122002993.html",
+    "comment": "Authors, title, vol 86, 2023, DOI match. Article number 101492 consistent with DOI."
+  },
+  {
+    "key": "Ahmad2022Energetics4.0",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://eld.bl.uk/catalog/100180098228_0x000001",
+    "comment": "All fields match (Energy Reports 8, 334-361, 2022). Key contains a period; harmless but unusual."
+  },
+  {
+    "key": "Ahmad2025DeepRLReliefDistribution",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pure.kfupm.edu.sa/en/publications/an-enhanced-deep-reinforcement-learning-approach-for-efficient-ef/",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Akhyar2024DeepReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/ae1531847e5c4e5393e8bcfce0138589",
+    "comment": "All fields match (vol 163, 112067, 2024). Author 'Asyraf Zulkifley, Mohd' gives family name 'Asyraf Zulkifley'; source lists 'Mohd Asyraf Zulkifley' (family name Zulkifley). Consider 'Zulkifley, Mohd Asyraf'."
+  },
+  {
+    "key": "Albahri2024ADisasters",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://researchr.org/publication/AlbahriKHIHDHAAA24",
+    "comment": "Authors, vol 118, art. 109409, 2024 match (also https://ouci.dntb.gov.ua/works/4NKvg52l for DOI)."
+  },
+  {
+    "key": "Ali2022AnIndia",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/nathaz/v113y2022i3d10.1007_s11069-022-05360-5.html",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Alshayeb2024ExplainableStormSurgeSusceptibility",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/nathaz/v120y2024i6d10.1007_s11069-024-06414-6.html",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Altay2022ForecastingNeeds",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/intfor/v38y2022i3p1234-1244.html",
+    "comment": "Vol 38(3), 1234-1244, 2022 confirmed by RePEc handle (seen in search results; page not opened)."
+  },
+  {
+    "key": "Anfuso2026CybersecurityHumanitarian",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://scholarlypublications.universiteitleiden.nl/handle/1887/4308028",
+    "comment": "Authors, title, journal, art. 106082, 2026, DOI match. Volume 137 not shown on source (left unchanged). Source lists third author as 'Real, C. del'; 'Del-Real, Cristina' left as is, confirm preferred form."
+  },
+  {
+    "key": "Bankins2023TheWork",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/kap/jbuset/v185y2023i4d10.1007_s10551-023-05339-7.html",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Bassiouni2023AdvancedRestrictions",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/4Oaaerr9",
+    "comment": "Authors, title, art. 118604, 2023, DOI match. Volume 211 not shown on source (left unchanged)."
+  },
+  {
+    "key": "Basu2019ADTN",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "224--239"
+      },
+      {
+        "field": "author",
+        "old": "Basu, Souvik and Roy, Siuli and Dasbit, Sipra",
+        "new": "Basu, Souvik and Roy, Siuli and Das Bit, Sipra"
+      }
+    ],
+    "source_url": "https://researchr.org/publication/BasuRB19/bibliographies",
+    "comment": "Pages were missing; third author's surname is 'Das Bit'. Vol 66(2), 2019 confirmed. Title in source uses Title Case ('A Post-Disaster Demand Forecasting System ...'); optional. ISSN field '00189391' lacks hyphen (0018-9391); only matters if style prints ISSN."
+  },
+  {
+    "key": "Basu2019ExtractingOperations",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ieeexplore.ieee.org/document/8715653/",
+    "comment": "Title confirmed in IEEE Xplore search result (doc 8715653), but page content could not be read; volume/issue/pages not independently verified. Treat as OK-unconfirmed."
+  },
+  {
+    "key": "Battarra2018DisasterEngineering",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/ejores/v269y2018i2p423-435.html",
+    "comment": "Vol 269(2), 423-435, 2018 confirmed by RePEc handle and title match in search results."
+  },
+  {
+    "key": "Behl2026DarkSideAI",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "note",
+        "old": "Available online 2025",
+        "new": "(delete field)"
+      }
+    ],
+    "source_url": "https://bradscholars.brad.ac.uk/entities/publication/d636fb46-4d80-4cf1-a3ad-bcb799360bbb",
+    "comment": "Authors, title, journal, vol 224, art. 124484, 2026 match. The note field prints as annotation text in the reference list (reviewer complaint type); remove it."
+  },
+  {
+    "key": "Beiranvand2022ApplicationReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://eld.bl.uk/catalog/100168675018_0x000001",
+    "comment": "Authors, title, journal, vol 173, Nov 2022, DOI match; 103268 consistent with DOI."
+  },
+  {
+    "key": "Betz2023GameBeyond",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/tefoso/v193y2023ics0040162523002731.html",
+    "comment": "All 34 authors in same order; vol 193, 2023, DOI match. Title is an editorial ('Game changers in science and technology - Now and beyond'); dash should arguably be an en/em dash per journal, optional."
+  },
+  {
+    "key": "Bhullar2022TimeManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Biswas2023PredictionTurkey",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Biswas, Saptadeep and Kumar, Dhruv and Bera, Uttam Kumar and Kumar Bera, Uttam",
+        "new": "Biswas, Saptadeep and Kumar, Dhruv and Bera, Uttam Kumar"
+      },
+      {
+        "field": "journal",
+        "old": "Research Square ",
+        "new": "Research Square (preprint)"
+      },
+      {
+        "field": "keywords",
+        "old": "AI, ANN, ... Turkey 21, Turkey Keywords: Earthquake hazard",
+        "new": "(delete field)"
+      },
+      {
+        "field": "url",
+        "old": "https://doi.org/10.21203/rs.3.rs-2863887/v1",
+        "new": "(delete; duplicates doi)"
+      }
+    ],
+    "source_url": "",
+    "comment": "Not verified externally (search budget exhausted). Internal problems: same author listed twice (duplicate 'Kumar Bera, Uttam'); journal has trailing space; keywords field contains scraped junk; preprint cited as @article (better @misc or @article with 'Research Square' + 'Preprint' note per Elsevier style). Check whether a peer-reviewed version exists before keeping the preprint citation. Proposed changes are internal clean-ups, not from an external source."
+  },
+  {
+    "key": "Biswas2024AnTurkiye",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. (Author's own paper; metadata looks plausible.)"
+  },
+  {
+    "key": "Boroumand2022AEarthquake",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "2008--6822",
+        "new": "(unknown; 2008-6822 is the journal ISSN, must be replaced with real pages)"
+      },
+      {
+        "field": "url",
+        "old": "http://dx.",
+        "new": "(delete; broken URL)"
+      },
+      {
+        "field": "journal",
+        "old": "Int. J. Nonlinear Anal. Appl",
+        "new": "International Journal of Nonlinear Analysis and Applications"
+      },
+      {
+        "field": "keywords",
+        "old": "62A86, Earthquake, Expert system, ... 2020 MSC: 03E72, Prediction relief goods",
+        "new": "(delete field)"
+      }
+    ],
+    "source_url": "",
+    "comment": "Exactly the reviewer's 'ISSN printed as pages' error: 2008-6822 is the ISSN of Int. J. Nonlinear Anal. Appl. Correct issue number and page range could not be verified (search budget exhausted); look up DOI 10.22075/ijnaa.2022.27539.3641 on ijnaa.semnan.ac.ir. Journal name abbreviated inconsistently with other entries; url field is truncated garbage; keywords field is scraped junk."
+  },
+  {
+    "key": "Brosset2021ScalingPerspective",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. Grey-literature report: add a URL to the Capgemini Research Institute page once verified."
+  },
+  {
+    "key": "Cai2026SpatialFloodSupplyDemand",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. Note DOI prefix 'uclim.2025' with year 2026 is normal for Elsevier (online 2025)."
+  },
+  {
+    "key": "Cantini2025PromptBasedLargeLanguageDisasterMonitoring",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Cao2023AIResilience",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Charles2016DesigningNetwork",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. Note: JOM vol 47-48 is a combined volume; 'number = {1}' is likely spurious and should be checked (probably remove)."
+  },
+  {
+    "key": "Chen2019ApplicationReview",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. Pages field is missing (Artificial Intelligence Review 52(3)); needs page range from SpringerLink."
+  },
+  {
+    "key": "Chen2026FloodHumanitarianDataDriven",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Choudhury2023TheOpportunities",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Collar2023UniqueRegion",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Comes2024AIDecisions",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "DaShimin2007ResearchEmergency",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged. Author field is malformed: '{Da Shimin}' is braced as a corporate name and the other two names look surname/given-swapped ('Huizhang, Shen', 'Hong, Liu'). Likely should be 'Da, Shimin and Shen, Huizhang and Liu, Hong', but verify on IEEE Xplore (DOI 10.1109/SOLI.2007.4383930) before changing."
+  },
+  {
+    "key": "Dahu2023TheReview",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Davis2013InventoryEfforts",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Davis2016AnalysisOrganization",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/proeco/v182y2016icp26-37.html",
+    "comment": "Vol 182, pp. 26-37, 2016 confirmed by RePEc handle and title in search results (authors not opened)."
+  },
+  {
+    "key": "DeivaGanesh2022FutureReview",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Diaz-Robles2008AChile",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  },
+  {
+    "key": "Ding2022AnManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not verified: web search budget for this session ran out before this entry could be checked. Fields left unchanged."
+  }
+]

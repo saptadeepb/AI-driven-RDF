@@ -1,0 +1,244 @@
+[
+  {
+    "key": "Rodriguez-Espindola2020ThePrinting",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/taf/tprsxx/v58y2020i15p4610-4630.html",
+    "comment": "Authors, title, IJPR 58(15), 4610-4630, 2020, DOI all match."
+  },
+  {
+    "key": "Saberi2019BlockchainManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/taf/tprsxx/v57y2019i7p2117-2135.html",
+    "comment": "Authors, title, IJPR 57(7), 2117-2135, 2019, DOI all match."
+  },
+  {
+    "key": "Sadeghi2026MLStochasticRouting",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "https://blogs.umflint.edu/som/2026/05/13/thought-leaders-and-best-azadeh-sadeghi/",
+    "comment": "Three searches (exact title; DOI 10.1016/j.tre.2026.104993; authors + TRE 2026 keywords) found no record of this title or DOI. The first author's institutional page (found in an earlier audit) lists a different 2026 paper by this team in IJPR. Possibly fabricated or mis-cited; confirm on ScienceDirect or remove."
+  },
+  {
+    "key": "Shafapourtehrany2023AAssessment",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/022fa22816fa4063822418aa241f6a9b",
+    "comment": "Authors, title, Remote Sensing 15(7), 1939, April 2023, DOI match."
+  },
+  {
+    "key": "Sheu2007AnDisasters",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v43y2007i6p687-709.html",
+    "comment": "Title, author, TRE 43(6), 687-709, 2007 match (IDEAS). DOI 10.1016/j.tre.2006.04.004 confirmed at https://scholars.lib.ntu.edu.tw/handle/123456789/472047."
+  },
+  {
+    "key": "Sheu2010DynamicDisasters",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v46y2010i1p1-17.html",
+    "comment": "Title, author, TRE 46(1), 1-17, Jan 2010 match. DOI 10.1016/j.tre.2009.07.005 confirmed at https://scholars.lib.ntu.edu.tw/handle/123456789/472064."
+  },
+  {
+    "key": "Situ2025AttentionFloodDamageRisk",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title + 'Situ'; DOI 10.1016/j.ijdrr.2024.105165; author surnames + topic keywords + IJDRR 2025. No record surfaced (earlier audit also found none). Not proven fabricated, but unconfirmed; check ScienceDirect before keeping."
+  },
+  {
+    "key": "Subhashini2022ArtificialManagement",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "https://shop.elsevier.com/books/advances-of-artificial-intelligence-in-a-green-energy-environment/vasant/978-0-323-89785-3",
+    "comment": "The chapter exists: it is Chapter 11 of 'Advances of Artificial Intelligence in a Green Energy Environment' (eds. Pandian Vasant, Joshua Thomas, Elias Munapo, Gerhard-Wilhelm Weber; Elsevier/Academic Press, 2022). Authors, pages 203-221 and DOI could not be confirmed; DOI search returned nothing. The DOI suffix '00006-2' would normally correspond to chapter 6, not chapter 11, so the DOI (and possibly pages) may be wrong. The entry also lacks the editor field."
+  },
+  {
+    "key": "Tetteh2025DroneGhanaBarriers",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; DOI jhlscm-05-2024-0061 / authors + JHLSCM + drone Ghana. No record found (earlier audit also none). Unconfirmed; check emerald.com."
+  },
+  {
+    "key": "Tilahun2019SupplyNiger",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "month",
+        "old": "12",
+        "new": "7"
+      }
+    ],
+    "source_url": "https://libmast.utm.my/Record/doaj.art-723bdf7bed6f42e2b443bc7e527cca72",
+    "comment": "Title, authors (incl. 'Ramchandara Bhandari', spelled so in the record), journal, 2019 and DOI confirmed. Record gives publication date 2019-07-01 (also DOAJ 'Jul 2019': https://doaj.org/article/723bdf7bed6f42e2b443bc7e527cca72). Volume 9 / article 31 not shown in the sources seen."
+  },
+  {
+    "key": "Wang2023TrendsSystems",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "1256351"
+      }
+    ],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10665494",
+    "comment": "Authors, title, Frontiers in Neuroscience 17, Nov 2023, DOI match. Article number missing in bib; add it."
+  },
+  {
+    "key": "Wang2024NearRealTimeFatalityEstimation",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "title",
+        "old": "Near-real-time earthquake-induced fatality estimation using crowdsourced data and large-language models",
+        "new": "Near-real-time earthquake-induced fatality estimation using crowdsourced data and few-shot large-language models"
+      }
+    ],
+    "source_url": "https://pubs.usgs.gov/publication/70264868",
+    "comment": "Published title includes 'few-shot'. Authors, IJDRR 111, 104680, 2024, DOI match (the bib title is the arXiv 2312.03755 preprint title). USGS lists D.T. Engler and K.S. Jaiswal; middle initials optional."
+  },
+  {
+    "key": "Wang2026EmergencySuppliesScheduling",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; first two authors + keywords + RESS. No record found. Possibly fabricated or very recent; confirm at ScienceDirect or remove."
+  },
+  {
+    "key": "Whyte2026CentaurResponders",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: 'Building centaur responders' + authors + Disasters; authors + 'centaur' + Disasters 2026. No record found. Confirm at Wiley Online Library or remove."
+  },
+  {
+    "key": "Wu2022Dynamic-LSTMChina",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; authors + J. Hydrology 615 128706 + keywords. No record found (earlier audit also none). Unconfirmed; check ScienceDirect."
+  },
+  {
+    "key": "Xu2025LargeLanguageAgentHousehold",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; authors + hurricane food shortage LLM agent + IJDRR. No record found (earlier audit also none). Confirm or remove."
+  },
+  {
+    "key": "Yadav2021ReductionTechnology",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "https://katalog.lib.cas.cz/KNAV/EdsRecord/edselp,S0959652621005187",
+    "comment": "Exact-title search returns a library catalogue record with Elsevier PII S0959652621005187 (consistent with J. Cleaner Production 2021), so the paper very likely exists. The page was bot-blocked, so authors, volume 297, article 126298 and DOI could not be compared."
+  },
+  {
+    "key": "Zhang2025PredictiveAnalyticsHumanitarian",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; 'Zhang Yunfei' + interpersonal skills + BDPA + JHLSCM. No record found. Also, volume 16 with year 2025 looks inconsistent for JHLSCM. Confirm on emerald.com or remove."
+  },
+  {
+    "key": "Zhang2025TornadoGraphNeuralNetworks",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://par.nsf.gov/biblio/10613892",
+    "comment": "NSF PAR confirms title, IJDRR vol 123, article 105525 (Elsevier). Authors, year and DOI not shown there (blank fields); consistent with the bib but unconfirmed."
+  },
+  {
+    "key": "Zhou2025ClassificationSeverityDisasterLosses",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches: exact title; authors + multi-modal disaster losses + IPM 2025. No record found (earlier audit also none). Confirm at ScienceDirect or remove."
+  },
+  {
+    "key": "arksey2005scoping",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://pure.ul.ie/en/publications/scoping-studies-towards-a-methodological-framework/",
+    "comment": "All fields match."
+  },
+  {
+    "key": "collins2015tripod",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ora.ox.ac.uk/objects/uuid:7fa7f831-5a1c-4219-88b4-08a996bd908c",
+    "comment": "Authors, title, BMJ 350, g7594, 2015, DOI match."
+  },
+  {
+    "key": "collins2024tripodai",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research.birmingham.ac.uk/en/publications/tripodai-statement-updated-guidance-for-reporting-clinical-predic/",
+    "comment": "All 34 authors (order), BMJ 385, e078378, 2024, DOI match."
+  },
+  {
+    "key": "hong2018mmat",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://wrap.warwick.ac.uk/119945/",
+    "comment": "All fields match. Optional: source gives 'Felicity K. Boardman'."
+  },
+  {
+    "key": "levac2010scoping",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2954944",
+    "comment": "Authors, title, Implement Sci 5, article 69, 2010, DOI match."
+  },
+  {
+    "key": "moons2014charms",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://gpbib.cs.ucl.ac.uk/gp-html/Moons_2014_PLOSmed.html",
+    "comment": "All fields match."
+  },
+  {
+    "key": "munn2018systematic",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/c8b3acfd2204423fa84ea1f3dbd5ebac",
+    "comment": "Authors, title, BMC Med Res Methodol 18(1), 2018, DOI match. Article number 143 not shown on page."
+  },
+  {
+    "key": "peters2020updated",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://rgu-repository.worktribe.com/output/979072",
+    "comment": "All fields match (JBI Evid Synth 18(10), 2119-2126, 2020). Note that a 2021 reprint exists in JBI Evidence Implementation (doi 10.1097/xeb.0000000000000277); the bib correctly cites the original."
+  },
+  {
+    "key": "peters2024jbiscoping",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "https://jbi-global.atlassian.net/wiki/spaces/MANUAL/pages/355862497/10.+Scoping+reviews",
+    "comment": "DOI 10.46658/JBIMES-24-09, chapter 10 'Scoping reviews', JBI Manual for Evidence Synthesis, publisher JBI (2024) confirmed. But the live chapter page now lists authors Pollock D, Peters MDJ, Tricco AC, Munn Z, Jia RM, Alexander L, Pieper D, Evans C, Godfrey CM, Brandão de Moraes E, Saran A, Campbell F, Khalil H, with chapter year 2026, which does not match the bib's six authors. Editors: Aromataris E, Lockwood C, Porritt K, Pilla B, Jordan Z (missing in bib). Decide which version was consulted and cite the authors/year shown for that version."
+  },
+  {
+    "key": "pollock2021undertaking",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://rgu-repository.worktribe.com/output/1206481",
+    "comment": "All fields match."
+  },
+  {
+    "key": "tricco2018prismascr",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://eprints.whiterose.ac.uk/136633/",
+    "comment": "All 28 authors, title, Ann Intern Med 2018, 467-473, DOI match. Volume/issue not shown on page."
+  },
+  {
+    "key": "wolff2019probast",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://synapse.mskcc.org/synapse/works/139781",
+    "comment": "Authors, title, Ann Intern Med 170(1), 51-58, 2019, DOI match. Source adds 'for the PROBAST Group' (optional)."
+  }
+]

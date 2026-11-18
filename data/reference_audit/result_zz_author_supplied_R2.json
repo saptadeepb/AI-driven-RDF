@@ -1,0 +1,83 @@
+[
+ {
+  "key": "Zhou2025ClassificationSeverityDisasterLosses",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S0306457325001207-main.pdf, sha256 d9ad7648e5d1752f...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Situ2025AttentionFloodDamageRisk",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S2212420924009270-main.pdf, sha256 5a4069bbf35e8af2...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Xu2025LargeLanguageAgentHousehold",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S2212420925005588-main.pdf, sha256 408f70805f58c8af...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Chen2026FloodHumanitarianDataDriven",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S0360835226003815-main.pdf, sha256 97d95542784189c9...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Sadeghi2026MLStochasticRouting",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S1366554526003327-main.pdf, sha256 85e9f5d678e61b0b...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Wu2022Dynamic-LSTMChina",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S0022169422012768-main.pdf, sha256 d2f16537692d71dc...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Mota-Santiago2023DeterminationCountriesc",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S221242092300050X-main.pdf, sha256 620e1c0a49d9820b...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Cai2026SpatialFloodSupplyDemand",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S2212095525004560-main.pdf, sha256 75d8c5b16e017d43...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Wang2026EmergencySuppliesScheduling",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "publisher PDF supplied by the authors (1-s2.0-S0951832026003534-main.pdf, sha256 3ed7a0e29ba57efd...)",
+  "comment": "Second-pass audit could not locate this record; the authors supplied the publisher PDF on 17 Nov 2026. Authors, title, journal, volume, article number and DOI match the bibliography exactly."
+ },
+ {
+  "key": "Zhang2025PredictiveAnalyticsHumanitarian",
+  "status": "CORRECTED",
+  "changes": [
+   {
+    "field": "year",
+    "old": "2025",
+    "new": "2026"
+   },
+   {
+    "field": "number",
+    "old": "",
+    "new": "2"
+   }
+  ],
+  "source_url": "https://www.emerald.com/jhlscm/article-media/1270940/pdfviewer/10045221",
+  "comment": "Publisher PDF (link supplied by the authors): Yunfei Zhang, JHLSCM 16(2), 188-204, doi 10.1108/JHLSCM-12-2024-0175; published online 5 Aug 2025, issue year 2026."
+ }
+]

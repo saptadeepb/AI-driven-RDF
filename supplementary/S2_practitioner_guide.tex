@@ -1,0 +1,109 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.3cm]{geometry}
+\usepackage{booktabs,longtable,array,enumitem,fancyvrb,xcolor,hyperref,parskip}
+\hypersetup{colorlinks,linkcolor={blue!50!black},urlcolor={blue!50!black}}
+\newcolumntype{L}[1]{>{\raggedright\arraybackslash}p{#1}}
+\input{S2_macros}
+\input{../stats_macros}
+\input{../response/xref_R2}
+\fvset{fontsize=\footnotesize,frame=single,framesep=2mm}
+\title{\textbf{Supplementary Material S2}\\[4pt]
+\large Using the released master extraction dataset:\\ a step-by-step guide for humanitarian practitioners}
+\author{\normalsize Companion to: Artificial Intelligence for Relief Demand Forecasting:\\ \normalsize A PRISMA-ScR Scoping Review of Research Attention and Efficacy Evidence}
+\date{}
+\begin{document}
+\maketitle
+
+\section*{Purpose of this guide}
+This guide shows how a planner, analyst or information-management officer in a humanitarian organization can use the dataset released with the review to answer practical questions about forecasting methods, without reproducing the whole review. Every count quoted below is produced by the code shown, run against the released dataset; the code and its printed output are included in the repository.
+
+\section{What the dataset is, and what it is not}
+\begin{itemize}[leftmargin=*]
+\item \textbf{It is} a charted record of the \Nall{} sources included in the review (\Nprim{} primary studies and \Nrev{} reviews), one row per source, coded under the rules stated in the article (Table~\Xtabcodingrules) and in the codebook released with it.
+\item \textbf{It is not} a demand dataset. It contains no demand observations, so it cannot be used to fit or test a forecasting model. It tells you which studies exist, what they did and what evidence they report; the forecasting data, where released, are with the original authors.
+\item \textbf{Read ``Not reported'' carefully.} It means the variable could not be extracted from the retrievable record, not that the study lacks it. Performance and deployment codes are deliberately conservative (rules R5 and R6).
+\end{itemize}
+
+\section{Getting the files}
+\begin{enumerate}[leftmargin=*]
+\item Open the repository \url{https://github.com/saptadeepb/AI-driven-RDF} and download it (\emph{Code} $\rightarrow$ \emph{Download ZIP}), or clone it with \texttt{git clone}.
+\item For spreadsheet use, open the Excel version of the dataset in the \emph{data} folder; for analysis, use its comma-separated version (the same content).
+\item Keep the codebook open alongside: it defines every column and its allowed values.
+\item To find the full reference of a study, look up its \texttt{study\_id} in Table~\Xtabincludedstudies{} of the article.
+\end{enumerate}
+
+\section{The columns you will use most}
+\begin{longtable}{@{}L{3.6cm}L{11.4cm}@{}}
+\toprule \textbf{Column} & \textbf{Plain-language meaning} \\ \midrule \endhead
+\texttt{study\_type} & \emph{Primary} (applies a method to data) or \emph{Review}. Most questions should be filtered to \emph{Primary}. \\
+\texttt{disaster\_type} & Dominant hazard: Multi-hazard/General, Earthquake, Flood, Hurricane/Cyclone, Biological/Epidemic, Drought/Food insecurity, Conflict/Displacement, Technological/Other. One value per study. \\
+\texttt{mf\_statistical} \ldots{} \texttt{mf\_genai} & Six 0/1 flags for method family (statistical; classical machine learning; deep learning; knowledge-based; optimization or simulation; generative AI). A hybrid study has more than one 1, so shares add to more than 100\%. \\
+\texttt{data\_source} & Main input data: historical records, social media, satellite/GIS, survey, simulation, mixed. \\
+\texttt{horizon} & Short-term, long-term, short-to-long, dynamic/real-time, or not reported. \\
+\texttt{stochastic} & 1 if the study represents uncertainty explicitly (rule R3). \\
+\texttt{performance\_evidence} & \emph{Comparative benchmark} (two or more models compared on the same data with an error metric), \emph{Single-model metric}, \emph{Qualitative/none}, or \emph{Not reported}. \\
+\texttt{metric\_reported} & The error or accuracy metric named by the study, where known. \\
+\texttt{deployment\_status} & \emph{Operational deployment} (used by a named responding organization), \emph{Real-data case study}, \emph{Synthetic/illustrative}, or \emph{Not reported}. \\
+\texttt{coding\_note} & Why each code was assigned; read it before relying on a row. \\
+\bottomrule
+\end{longtable}
+
+\section{Four worked use-cases}
+Each case is given as spreadsheet steps and as the equivalent Python (pandas), which you can paste into any Python environment after \texttt{pip install pandas}. Start every Python session with:
+\begin{Verbatim}
+import pandas as pd
+df = pd.read_csv("data/master_extraction.csv", dtype=str)
+prim = df[df.study_type == "Primary"]
+\end{Verbatim}
+
+\subsection*{Case A. Which methods have been tried for my hazard and my data?}
+\emph{Spreadsheet.} Filter \texttt{study\_type} = Primary and \texttt{disaster\_type} = Flood. Sum each \texttt{mf\_} column. Then filter \texttt{data\_source} to the kind of input you hold (for example Social media).
+\begin{Verbatim}
+a = prim[prim.disaster_type == "Flood"]
+a[["mf_statistical","mf_ml","mf_dl","mf_knowledge","mf_optsim","mf_genai"]].astype(int).sum()
+prim[prim.data_source == "Social media"][["study_id","first_author","year","disaster_type"]]
+\end{Verbatim}
+\emph{Result on the current release:} \ucAflood{} primary studies address floods, \ucAfloodDL{} of them with deep learning; \ucAsocial{} primary studies use social-media inputs. Read their \texttt{performance\_evidence} and \texttt{deployment\_status} before treating any as a candidate.
+
+\subsection*{Case B. Which studies compared methods head-to-head?}
+\emph{Spreadsheet.} Filter \texttt{performance\_evidence} = Comparative benchmark; read \texttt{metric\_reported}.
+\begin{Verbatim}
+prim[prim.performance_evidence == "Comparative benchmark"][
+    ["study_id","first_author","year","disaster_type","metric_reported"]]
+\end{Verbatim}
+\emph{Result:} \ucBcomparative{} studies. These are the only studies that tell you how one method performed against another on the same data; where their numerical results could be verified, they are reported in Table~\Xtabefficacy{} of the article.
+
+\subsection*{Case C. Which studies give a forecast with its uncertainty?}
+\emph{Spreadsheet.} Filter \texttt{stochastic} = 1.
+\begin{Verbatim}
+prim[prim.stochastic == "1"][["study_id","first_author","year","disaster_type"]]
+\end{Verbatim}
+\emph{Result:} \ucCstochastic{} studies. If you need to preposition stock, prefer these: a point forecast without an interval cannot be used to set a safety margin.
+
+\subsection*{Case D. Which systems have actually been used by a responding organization?}
+\emph{Spreadsheet.} Filter \texttt{deployment\_status} = Operational deployment.
+\begin{Verbatim}
+prim[prim.deployment_status == "Operational deployment"][
+    ["study_id","first_author","year","journal","disaster_type"]]
+\end{Verbatim}
+\emph{Result:} \ucDoperational{} studies. Their documented use and the barriers they report are charted in Tables~\Xtabdeploymentcases{} and~\Xtabdeploymentbarriers{} of the article, with the location of each statement in the source.
+
+\section{Turning a result into a decision}
+\begin{enumerate}[leftmargin=*]
+\item Shortlist the studies whose hazard, data and horizon resemble your setting (Case A).
+\item Within the shortlist, give weight to studies with a comparative benchmark (Case B) and with explicit uncertainty (Case C). A frequently published method is not, on that ground, a better one (article, Section~\Xsecefficacy).
+\item Before adopting any method, compare it on your own past events against a simple baseline: a persistence or seasonal forecast, a per-capita planning ratio, or your current scenario plan; and report its error separately for large and small events (article, M2).
+\item If you run such a comparison, the task-card specification in Supplementary S3 tells you what to record so that your evaluation can be compared with others.
+\end{enumerate}
+
+\section{Reproducing the article's figures and tables}
+Install Python 3 with \texttt{pandas}, \texttt{numpy}, \texttt{matplotlib} and \texttt{openpyxl}, and a \LaTeX{} distribution, then run the build script from the repository root. The script rebuilds the dataset, every statistic, every figure and table, and the manuscript, and finishes with an automated consistency audit. On a laptop it takes a few minutes.
+
+\section{Adding studies}
+To add a study, append a row for it, using only the allowed values in the codebook, and give the reason for each code in \texttt{coding\_note}. Rebuild; the automated audit reports any value outside the allowed set. Proposed additions and corrections can be submitted as a GitHub issue or pull request; please include the DOI and the page or section that supports each code.
+
+\section{Limitations and citation}
+The dataset inherits the limitations stated in Section~\Xseclimitations{} of the article: English-language indexed literature only, conservative performance and deployment coding, and boundary decisions on what counts as relief demand. Please cite the article and the repository when you use the dataset.
+
+\end{document}

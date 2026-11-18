@@ -1,0 +1,382 @@
+[
+  {
+    "key": "Wu2022ALearning",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pure.ecnu.edu.cn/en/publications/a-survey-of-human-in-the-loop-for-machine-learning/",
+    "comment": "Authors, year, journal, volume 135, pages 364-381 and DOI match. The cited version is the journal one, not arXiv 2108.00941."
+  },
+  {
+    "key": "Wu2022Dynamic-LSTMChina",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches returned no authoritative record. The search budget ran out before another attempt, so fields are unchanged."
+  },
+  {
+    "key": "Xu2010ForecastingDisasters",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://manuscript.isc.ac/Inventory/10/2347932.htm",
+    "comment": "Authors, title, journal, year 2010 and pages 4313-4317 match. The DOI matches the eswa record (online 26 Nov 2009, per datalearner.com). Volume 37 and issue 6 were not shown by the source I opened."
+  },
+  {
+    "key": "Xu2025LLMDisasterManagement",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://researchportal.hkust.edu.hk/en/publications/large-language-model-applications-in-disaster-management-an-inter/",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Xu2025LargeLanguageAgentHousehold",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches returned no record of this title. Fields are unchanged; the user should confirm the title, volume 128, article 105734 and the DOI at ScienceDirect."
+  },
+  {
+    "key": "Yadav2021ReductionTechnology",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "https://katalog.lib.cas.cz/KNAV/EdsRecord/edselp,S0959652621005187",
+    "comment": "A catalogue record exists (Elsevier PII S0959652621005187, which is consistent with JCP 2021), but the page was bot-blocked, so fields could not be compared."
+  },
+  {
+    "key": "Yale2022ABrazil",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/gam/jmathe/v10y2022i22p4352-d978039.html",
+    "comment": "Authors, title, Mathematics 10(22):4352 and year 2022 match."
+  },
+  {
+    "key": "Yamashita2018ConvolutionalRadiology",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6108980",
+    "comment": "All fields match: 9(4):611-629."
+  },
+  {
+    "key": "Yang2022OptimizingRelief",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/taf/uiiexx/v54y2022i10p936-949.html",
+    "comment": "IISE Trans 54(10):936-949, 2022, matches. Authors were not individually checked."
+  },
+  {
+    "key": "Yang2025CasualtyEmergencyMaterial",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://mdpi.com/2079-8954/13/6/478",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Yang2025KnowledgeGraphGraphNeuralFloodRisk",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/8690b672e4154cd7a37bf62f958b9d0d",
+    "comment": "All fields match: IEEE Access 13:8416-8424."
+  },
+  {
+    "key": "Yariyan2020EarthquakeIran",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ro.uow.edu.au/articles/journal_contribution/Earthquake_risk_assessment_using_an_integrated_Fuzzy_Analytic_Hierarchy_Process_with_Artificial_Neural_Networks_based_on_GIS_A_case_study_of_Sanandaj_in_Iran/27760290",
+    "comment": "Authors, journal, year, volume 50 and article 101705 match."
+  },
+  {
+    "key": "Yazdi2024IntegrationSystems",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "booktitle",
+        "old": "Advances in Computational Mathematics for Industrial System Reliability and Maintainability. Springer Series in Reliability Engineering",
+        "new": "Advances in Computational Mathematics for Industrial System Reliability and Maintainability"
+      },
+      {
+        "field": "series",
+        "old": "(absent)",
+        "new": "Springer Series in Reliability Engineering"
+      },
+      {
+        "field": "publisher",
+        "old": "Springer, Cham",
+        "new": "Springer"
+      },
+      {
+        "field": "address",
+        "old": "(absent)",
+        "new": "Cham"
+      },
+      {
+        "field": "volume",
+        "old": "(empty)",
+        "new": "(remove field)"
+      },
+      {
+        "field": "doi",
+        "old": "10.1007/978-3-031-53514-7{\\_}7",
+        "new": "10.1007/978-3-031-53514-7_7"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/h/spr/ssrchp/978-3-031-53514-7_7.html",
+    "comment": "Author, pages 121-137, year and DOI match. The series name had been merged into the booktitle, the volume field was empty, and the escaped underscore in the DOI can break the DOI link. Editor names were not shown by the source, so none were added."
+  },
+  {
+    "key": "Ye2020ManagingLiterature",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(absent)",
+        "new": "807--832"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/bla/popmgt/v29y2020i4p807-832.html",
+    "comment": "Page range was missing. POM 29(4):807-832, 2020."
+  },
+  {
+    "key": "Yilmaz2025ResilientHumanitarianML",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://avesis.ktu.edu.tr/yayin/3896f39f-8ffe-4733-97bc-dcadf6d36a79/designing-a-resilient-humanitarian-supply-chain-by-considering-viability-under-uncertainty-a-machine-learning-embedded-approach",
+    "comment": "Authors, journal, year and volume 194 match. The DOI suffix gives article 103943."
+  },
+  {
+    "key": "Yu2025RobustStochasticPrepositioning",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v198y2025ics136655452500095x.html",
+    "comment": "Authors, title, journal, volume 198 and DOI match."
+  },
+  {
+    "key": "Zamani2023ArtificialReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://durham-repository.worktribe.com/output/1718757",
+    "comment": "All fields match: 327(2):605-632."
+  },
+  {
+    "key": "Zhan2016DeterminingUpdates",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(absent)",
+        "new": "509--520"
+      },
+      {
+        "field": "author",
+        "old": "Zhan, Sha Lei and Liu, Nan",
+        "new": "Zhan, Sha-Lei and Liu, Nan"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/taf/tsysxx/v47y2016i3p509-520.html",
+    "comment": "Page range was missing; IJSS 47(3):509-520. RePEc lists the author as S.-L. Zhan, so the hyphen gives the initials 'S.-L.' and not 'S. L.'."
+  },
+  {
+    "key": "Zhang2023IntermittentTransformer",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2023",
+        "new": "2024"
+      },
+      {
+        "field": "number",
+        "old": "(absent)",
+        "new": "1"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/spr/annopr/v339y2024i1d10.1007_s10479-023-05447-7.html",
+    "comment": "Annals of OR 339(1):1051-1072, 2024; the 2023 date is the online-first year. The in-text citation will change to 2024, so check the manuscript text."
+  },
+  {
+    "key": "Zhang2025PredictiveAnalyticsHumanitarian",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found before the search budget ran out. Volume 16 with year 2025 needs checking: JHLSCM volume 16 appears to be the 2026 volume, so either the year or the volume may be wrong. Fields are unchanged; check at emerald.com."
+  },
+  {
+    "key": "Zhang2025RAGEarthquakeMaterial",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/14221ff8b46f46e0baa183eaddc78381",
+    "comment": "All eight authors (in order), volume 13, pages 100630-100646 and DOI match."
+  },
+  {
+    "key": "Zhang2025TornadoGraphNeuralNetworks",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches returned no record of this title. Fields are unchanged; confirm at ScienceDirect."
+  },
+  {
+    "key": "Zhao2015ReviewSystem",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "volume",
+        "old": "08",
+        "new": "8"
+      },
+      {
+        "field": "number",
+        "old": "01",
+        "new": "1"
+      }
+    ],
+    "source_url": "https://www.taylorfrancis.com/chapters/edit/10.1201/9781315365787-20/review-relief-demand-forecasting-problem-emergency-logistic-system",
+    "comment": "The page range is missing and could not be verified: the JSSM record was not reached. Leading zeros in volume and number print as '08(01)'. The same paper also appears as a chapter in a CRC/T&F edited volume (DOI 10.1201/9781315365787-20); citing the original JSSM article is correct."
+  },
+  {
+    "key": "Zheng2021ReinforcementCare",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8678583/",
+    "comment": "All fields match: BMC Med Inform Decis Mak 21:350. This is the peer-reviewed version of arXiv 2105.08923."
+  },
+  {
+    "key": "Zheng2022Co-EvolutionaryForecasting",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(absent)",
+        "new": "1361--1373"
+      },
+      {
+        "field": "author",
+        "old": "Zheng, Yu Jun and Yu, Si Lan and Song, Qin and Huang, Yu Jiao and Sheng, Wei Guo and Chen, Sheng Yong",
+        "new": "Zheng, Yu-Jun and Yu, Si-Lan and Song, Qin and Huang, Yujiao and Sheng, Weiguo and Chen, Shengyong"
+      }
+    ],
+    "source_url": "https://api.openalex.org/works/doi:10.1109%2FTETC.2021.3085337",
+    "comment": "Page range was missing. OpenAlex gives 10(3):1361-1373. The current name split makes BibTeX print 'Y. J. Zheng', 'S. L. Yu' and so on, which misrepresents the authors; the new names follow OpenAlex. The 2022 year (issue date) is kept; OpenAlex lists 2021, the online-first year."
+  },
+  {
+    "key": "Zhou2023AgentEmergencyMedical",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/chsofr/v177y2023ics096007792301161x.html",
+    "comment": "Authors, journal, year, volume 177 and DOI match."
+  },
+  {
+    "key": "Zhou2025ClassificationSeverityDisasterLosses",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Searches returned no record of this title. Fields are unchanged; confirm IPM 62, article 104179 at ScienceDirect."
+  },
+  {
+    "key": "Zhu2019AIntelligence",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(absent)",
+        "new": "65--82"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/spr/nathaz/v97y2019i1d10.1007_s11069-019-03626-z.html",
+    "comment": "Page range was missing. Natural Hazards 97(1):65-82, 2019."
+  },
+  {
+    "key": "arksey2005scoping",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "collins2015tripod",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "collins2024tripodai",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "hong2018mmat",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "levac2010scoping",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "moons2014charms",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "munn2018systematic",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "peters2020updated",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "peters2024jbiscoping",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source. The incollection has no editor field. Most styles expect the JBI Manual editors (Aromataris et al.), so take them from the JBI Manual 2024 page."
+  },
+  {
+    "key": "pollock2021undertaking",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "tricco2018prismascr",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  },
+  {
+    "key": "vanderLaan2016DemandAssessment",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "(absent)",
+        "new": "114--122"
+      }
+    ],
+    "source_url": "https://repub.eur.nl/pub/97122/",
+    "comment": "Page range was missing. JOM 45:114-122, 2016."
+  },
+  {
+    "key": "wolff2019probast",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked online: the shared web-search budget was exhausted before this entry was reached. No discrepancy is apparent against the standard published record, but nothing was confirmed from an opened source."
+  }
+]

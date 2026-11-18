@@ -1,0 +1,25 @@
+\begin{table}[htbp!]
+\centering
+\scriptsize
+\caption{Harmonized search strategy}
+\label{tab:search_strategy}
+\begin{tabular}{@{}L{3.0cm}L{9.2cm}r@{}}
+\toprule
+\multicolumn{3}{@{}l}{\textbf{Concept blocks (identical in every database; blocks joined by AND)}} \\
+\midrule
+A. Relief-demand object & \multicolumn{2}{L{10.8cm}@{}}{\texttt{"relief demand" OR "humanitarian demand" OR "humanitarian need*" OR "relief suppl*" OR "emergency suppl*" OR "emergency material*" OR "emergency resource*" OR "emergency supply chain*" OR "disaster relief" OR "humanitarian logistic*"}} \\[2pt]
+B. Forecasting operation & \multicolumn{2}{L{10.8cm}@{}}{\texttt{forecast* OR predict* OR estimat*}} \\[2pt]
+C. Computational method & \multicolumn{2}{L{10.8cm}@{}}{\texttt{"artificial intelligence" OR "machine learning" OR "deep learning" OR "neural network*" OR "data-driven" OR "time series" OR "large language model*" OR "generative AI" OR fuzzy OR "case-based reasoning" OR "grey model*" OR "rough set*"}} \\[2pt]
+PubMed only & \multicolumn{2}{L{10.8cm}@{}}{Block A is additionally OR-ed with \texttt{"Disasters"[Mesh] OR "Relief Work"[Mesh] OR "Emergency Medical Services"[Mesh]}} \\[2pt]
+\midrule
+\textbf{Database} & \multicolumn{2}{l@{}}{\textbf{Field tag applied to each block}} \\
+\midrule
+Scopus & \multicolumn{2}{L{10.8cm}@{}}{TITLE-ABS-KEY} \\
+Web of Science Core Collection & \multicolumn{2}{L{10.8cm}@{}}{TS= (title, abstract, author keywords, Keywords Plus)} \\
+ScienceDirect & \multicolumn{2}{L{10.8cm}@{}}{Title, abstract or author-specified keywords} \\
+SpringerLink & \multicolumn{2}{L{10.8cm}@{}}{Title and abstract where the interface allows; otherwise all fields, restricted to articles and chapters} \\
+IEEE Xplore & \multicolumn{2}{L{10.8cm}@{}}{All Metadata} \\
+PubMed & \multicolumn{2}{L{10.8cm}@{}}{Title/Abstract [tiab] and MeSH} \\
+\bottomrule
+\end{tabular}
+\end{table}

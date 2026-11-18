@@ -1,0 +1,396 @@
+[
+  {
+    "key": "Ray2022ImpactSettlements",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/renene/v193y2022icp895-912.html",
+    "comment": "Authors, volume 193, pages 895-912, year, DOI match."
+  },
+  {
+    "key": "Rejeb2021HumanitarianAgenda",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://research.modul.ac.at/en/publications/humanitarian-drones-a-review-and-research-agenda/",
+    "comment": "Authors, vol 16, art. 100434, 2021, DOI match."
+  },
+  {
+    "key": "Ringo2026BeyondSensorsSirens",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Two searches (title and DOI) returned no record of this article; existence, authors, volume 31 and article number not confirmed. Check on ScienceDirect before resubmission."
+  },
+  {
+    "key": "Rodriguez-Espindola2020ThePrinting",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Metadata looks internally consistent."
+  },
+  {
+    "key": "Saberi2019BlockchainManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Metadata looks internally consistent."
+  },
+  {
+    "key": "Sadeghi2026MLStochasticRouting",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "https://blogs.umflint.edu/som/2026/05/13/thought-leaders-and-best-azadeh-sadeghi/",
+    "comment": "No record of this title found. The first author's institutional page lists a different 2026 paper by the same team (\"A scenario-based robust optimisation approach for social cost vehicle routing problem in disaster response\", Int. J. Production Research, doi 10.1080/00207543.2026.2651396). Verify that the TRE title/volume 213/article 104993 actually exist; possible mis-citation."
+  },
+  {
+    "key": "Sarker2022AssessmentIndex",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://research.usq.edu.au/item/q7v6z/assessment-of-flood-vulnerability-of-riverine-island-community-using-a-composite-flood-vulnerability-index",
+    "comment": "All 10 authors in order, vol 82, art. 103306, DOI match."
+  },
+  {
+    "key": "Scuotto2025SaveChildrenAI",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://research-portal.uws.ac.uk/en/publications/tackling-the-empowerment-of-artificial-intelligence-for-humanitar/",
+    "comment": "Authors, vol 221, art. 124330, DOI match."
+  },
+  {
+    "key": "Sebatli2017DeterminationFacilities",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://avesis.uludag.edu.tr/yayin/8a21c75c-f505-48ea-bed5-9ca5325a066f/determination-of-relief-supplies-demands-and-allocation-of-temporary-disaster-response-facilities",
+    "comment": "Authors (Sebatli, Cavdur, Kose Kucuk), vol 22, pp 245-254, 2017, DOI match (19th EWGT meeting, Transportation Research Procedia). Optional: Turkish diacritics (Çavdur, Köse-Küçük)."
+  },
+  {
+    "key": "Sedhain2025ImpactBasedCycloneForecasting",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://research.utwente.nl/en/publications/evaluating-impact-based-forecasting-models-for-tropical-cyclone-a/",
+    "comment": "Authors, vol 129, art. 105782, DOI match."
+  },
+  {
+    "key": "Shafapourtehrany2023AAssessment",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Metadata looks internally consistent."
+  },
+  {
+    "key": "Shahidian2025EMSDemandMachineLearning",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ersearch2.cvtisr.sk/vufind/SummonRecord/FETCH-LOGICAL-c297t-7c62f177254c4c956497136a8c91022bca57a039c5fd456db59132211559acf23?lng=en",
+    "comment": "Authors in order, vol 200, art. 110765, 2025, DOI match. Optional: Barbosa-P{\\'o}voa accent."
+  },
+  {
+    "key": "Shao2020ReliefClassification",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "",
+        "new": "582"
+      }
+    ],
+    "source_url": "https://mdpi.com/1660-4601/17/2/582",
+    "comment": "Article number was missing; other fields match."
+  },
+  {
+    "key": "Shao2021ReliefReasoning",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "",
+        "new": "100932"
+      }
+    ],
+    "source_url": "https://ouci.dntb.gov.ua/works/4Y0XGV37",
+    "comment": "Article number was missing; authors, vol 74, DOI confirmed (also https://ideas.repec.org/a/eee/soceps/v74y2021ics0038012119302472.html)."
+  },
+  {
+    "key": "Shbikat2026InfrastructureResilienceReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://synapsesocial.com/papers/W7165043011",
+    "comment": "Title, authors, journal, DOI confirmed; published online 17 June 2026, no volume/issue/pages yet. note='Advance online publication' prints; acceptable, but keep wording consistent with other in-press items (or replace by Elsevier-style 'in press')."
+  },
+  {
+    "key": "Shefa2025OnlinePathPlanningPractice",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2025",
+        "new": "2026"
+      }
+    ],
+    "source_url": "https://scholarworks.uark.edu/inegpub/12",
+    "comment": "Vol 16 issue 2 pp 121-135 is a 2026 issue; year was inconsistent with volume. Citation key retains 2025."
+  },
+  {
+    "key": "Sheu2007AnDisasters",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Metadata looks internally consistent."
+  },
+  {
+    "key": "Sheu2010DynamicDisasters",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Metadata looks internally consistent."
+  },
+  {
+    "key": "Situ2025AttentionFloodDamageRisk",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Two searches did not surface a record for this title; authors, vol 116, art. 105165 not confirmed."
+  },
+  {
+    "key": "Song2020BigApplications",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2020",
+        "new": "2022"
+      },
+      {
+        "field": "volume",
+        "old": "",
+        "new": "8"
+      },
+      {
+        "field": "number",
+        "old": "",
+        "new": "2"
+      },
+      {
+        "field": "pages",
+        "old": "1--1",
+        "new": "397--419"
+      }
+    ],
+    "source_url": "https://researchr.org/publication/SongZAHGZJOPSPC22",
+    "comment": "Cited as early-access (pages 1--1). Final version: IEEE Trans. Big Data 8(2):397-419, April 2022 (date also at https://polyu-test.netlify.app/publications/big-data-and-emergency-management-concepts-methodologies-and-applications). Authors match. DOI kept (not displayed by source). Optional: Skupin, Andr{\\'e}."
+  },
+  {
+    "key": "Subhashini2022ArtificialManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Search did not surface a record for this chapter; authors, pages 203-221 and DOI not confirmed."
+  },
+  {
+    "key": "Sun2013AUniverses",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "",
+    "comment": "Pages missing (Applied Mathematical Modelling 37(10-11)). Could not find an authoritative record with page range; obtain from ScienceDirect. Also use en dash in number field (10--11)."
+  },
+  {
+    "key": "Sun2020ApplicationsManagement",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "entrytype",
+        "old": "@misc",
+        "new": "@article"
+      },
+      {
+        "field": "booktitle",
+        "old": "Natural Hazards",
+        "new": "(remove; use journal)"
+      },
+      {
+        "field": "journal",
+        "old": "",
+        "new": "Natural Hazards"
+      },
+      {
+        "field": "pages",
+        "old": "",
+        "new": "2631--2689"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/spr/nathaz/v103y2020i3d10.1007_s11069-020-04124-3.html",
+    "comment": "Journal article was typed @misc with booktitle, so journal name and pages would not print. Vol 103(3) 2631-2689, DOI confirmed; also https://www.cse.lehigh.edu/~brian/pubs/2020/natural_hazards/."
+  },
+  {
+    "key": "Svetunkov2023IntermittentStateSpace",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/proeco/v265y2023ics0925527323002451.html",
+    "comment": "Authors, vol 265, art. 109013 (https://eprints.lancs.ac.uk/id/eprint/203601), DOI match."
+  },
+  {
+    "key": "Takeda2006BureaucracyCatastrophe",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "title",
+        "old": "{``Bureaucracy, meet catastrophe''}",
+        "new": "{``Bureaucracy, meet catastrophe'': Analysis of Hurricane Katrina relief efforts and their implications for emergency response governance}"
+      }
+    ],
+    "source_url": "https://www.emeraldinsight.com/doi/abs/10.1108/09513550610669211",
+    "comment": "Title truncated (subtitle missing). Vol 19(4) 397-411, DOI match. Note: same authors have a different 2006 IJPSM 19(2) paper with the same main title (tsunami); the DOI here is the Katrina one."
+  },
+  {
+    "key": "Tang2021CollaborationWay",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "title",
+        "old": "{Collaboration in MHEWS Through an Integrated Way}",
+        "new": "{Collaboration in MHEWS Through an Integrated Way: The Great Efforts Contributed by Multi-stakeholder Partnership at National, Regional and International Levels}"
+      },
+      {
+        "field": "booktitle",
+        "old": "Understanding and Reducing Landslide Disaster Risk. WLF 2020. ICL Contribution to Landslide Disaster Risk Reduction  ",
+        "new": "Understanding and Reducing Landslide Disaster Risk"
+      },
+      {
+        "field": "doi",
+        "old": "10.1007/978-3-030-60196-6{\\_}39",
+        "new": "10.1007/978-3-030-60196-6_39"
+      }
+    ],
+    "source_url": "https://library.usi.edu/record/1433085",
+    "comment": "Full chapter title taken from the book's table of contents. Booktitle had series/conference text appended and trailing spaces (series is ICL Contribution to Landslide Disaster Risk Reduction; add as series field if wanted). DOI braces/escape can print literally with doi/url packages. Authors, pages 479-497 and editors not verified."
+  },
+  {
+    "key": "Taskin2010InventoryPredictions",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/proeco/v126y2010i1p66-75.html",
+    "comment": "Authors, vol 126(1), pp 66-75, July 2010 match; DOI consistent with PII S0925-5273(09)00369-7."
+  },
+  {
+    "key": "Taskin2011AManagement",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Taskin, S and Lodree, , E J",
+        "new": "Taskin, Selda and Lodree, Emmett J."
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/pal/jorsoc/v62y2011i6d10.1057_jors.2010.14.html",
+    "comment": "Malformed author field (empty name part ', ,') produces a broken name. Same authors as Taskin2010 (full names from https://ideas.repec.org/a/eee/proeco/v126y2010i1p66-75.html). Vol 62(6) 1098-1108, DOI match."
+  },
+  {
+    "key": "Tetteh2025DroneGhanaBarriers",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Two searches did not surface this article; authors, vol 15(4), pp 391-413 not confirmed."
+  },
+  {
+    "key": "Tilahun2019SupplyNiger",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "https://doaj.org/article/723bdf7bed6f42e2b443bc7e527cca72",
+    "comment": "Journal and date (July 2019) confirmed; authors, article number 31 not confirmed. Second author's given name 'Ramchandara' looks like a typo (possibly 'Ramchandra'); check on the article page before changing."
+  },
+  {
+    "key": "Timperio2022Beneficiary-centricASEAN",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v167y2022ics1366554522002861.html",
+    "comment": "Authors in order, vol 167, DOI match."
+  },
+  {
+    "key": "Toland2023ADisasters",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pubs.usgs.gov/publication/70242849",
+    "comment": "Vol 90, art. 103661, DOI match; authors and order confirmed at https://www.usgs.gov/publications/a-conceptual-framework-estimation-initial-emergency-food-and-water-resource."
+  },
+  {
+    "key": "Toorajipour2021ArtificialReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://econpapers.repec.org/RePEc:eee:jbrese:v:122:y:2021:i:c:p:502-517",
+    "comment": "Authors (Fischl), vol 122, pp 502-517, DOI match."
+  },
+  {
+    "key": "Vollmer2021ADepartments",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7812986",
+    "comment": "10 authors in order, vol 21, art. 9, DOI match. 'month = 12' is odd (published Jan 2021) but not printed by most styles."
+  },
+  {
+    "key": "Wang2020EmergencyMethod",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://search.napstic.cn/literature/periodical/0220200700553963",
+    "comment": "Authors, vol 262, art. 110382, DOI match."
+  },
+  {
+    "key": "Wang2023DistributionallyOperations",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/jomega/v120y2023ics0305048323000798.html",
+    "comment": "Authors, vol 120, art. 102915, DOI match."
+  },
+  {
+    "key": "Wang2023Human-centeredReview",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "pages",
+        "old": "",
+        "new": "1187299"
+      }
+    ],
+    "source_url": "https://www.frontiersin.org/articles/10.3389/fcomp.2023.1187299/full",
+    "comment": "Article number missing; authors, vol 5, DOI match."
+  },
+  {
+    "key": "Wang2023TrendsSystems",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged. Article number (1256351) missing; add once confirmed."
+  },
+  {
+    "key": "Wang2024NearRealTimeFatalityEstimation",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged."
+  },
+  {
+    "key": "Wang2026EmergencySuppliesScheduling",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged."
+  },
+  {
+    "key": "Whyte2026CentaurResponders",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked against an authoritative record: the shared web-search budget was exhausted before this entry was reached. Fields left unchanged."
+  },
+  {
+    "key": "WiltonPark2024RisksOpportunitiesAI",
+    "status": "PROBLEM",
+    "changes": [
+      {
+        "field": "note",
+        "old": "Grey literature; not peer reviewed. Indexed in the ALNAP HELP Library",
+        "new": "(remove)"
+      }
+    ],
+    "source_url": "",
+    "comment": "Annotation text in 'note' would print in the reference list (exactly the reviewer's complaint); remove it. Institution string is long; 'Wilton Park' suffices. Report metadata itself not verified (search budget exhausted; ALNAP URL could not be fetched). Consider adding urldate/accessed date per Elsevier style."
+  }
+]

@@ -1,0 +1,26 @@
+concept_block,term,Scopus,Web of Science,ScienceDirect,Springer Nature,IEEE Xplore,PubMed,in_R2_harmonised_string
+A relief-demand object,relief demand,1,1,1,1,1,0,1
+A relief-demand object,humanitarian demand,1,0,0,0,0,0,1
+A relief-demand object,humanitarian need*,1,0,0,0,0,0,1
+A relief-demand object,relief suppl*,1,0,0,0,0,0,1
+A relief-demand object,emergency suppl*,1,1,1,0,0,0,1
+A relief-demand object,emergency material*,1,0,0,0,0,0,1
+A relief-demand object,emergency resource*,0,0,0,0,1,0,1
+A relief-demand object,emergency supply chain*,0,1,0,0,0,0,1
+A relief-demand object,disaster relief,0,1,0,0,1,0,1
+A relief-demand object,humanitarian logistic*,0,1,0,1,0,0,1
+B forecasting operation,forecast*,1,1,1,1,1,1,1
+B forecasting operation,predict*,1,1,1,1,1,1,1
+B forecasting operation,estimat*,1,0,0,0,0,0,1
+C computational method,artificial intelligence,1,1,1,1,1,1,1
+C computational method,machine learning,1,1,1,1,1,1,1
+C computational method,deep learning,1,1,0,0,1,0,1
+C computational method,neural network*,1,1,0,0,0,0,1
+C computational method,data-driven,1,0,0,0,0,0,1
+C computational method,time series,1,0,0,0,0,0,1
+C computational method,large language model*,1,0,0,0,0,0,1
+C computational method,generative AI,0,0,0,0,0,0,1
+C computational method,fuzzy,0,0,0,0,0,0,1
+C computational method,case-based reasoning,0,0,0,0,0,0,1
+C computational method,grey model*,0,0,0,0,0,0,1
+C computational method,rough set*,0,0,0,0,0,0,1

@@ -1,0 +1,251 @@
+[
+  {
+    "key": "Bhullar2022TimeManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/4YRZrwPl",
+    "comment": "Title, all six authors, journal, article 102979, 2022 and DOI match. Volume 75 not shown on the source but consistent. Note: EconBiz lists a variant title 'Time series sentiment analysis of natural hazard relief operations...'; the OUCI (Crossref-based) title matches the bib."
+  },
+  {
+    "key": "Biswas2024AnTurkiye",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research.tec.mx/vivo-tec/display/AcademicArticleSCO_85183149215",
+    "comment": "Title, journal IJDRR, vol 102, 2024 (published 15 Feb 2024), DOI 10.1016/j.ijdrr.2024.104287 match the Tec de Monterrey Scopus record. That page lists only Hajiaghaei-Keshteli (institutional author), so the full author list was not independently confirmed (user's own paper)."
+  },
+  {
+    "key": "Brosset2021ScalingPerspective",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2021",
+        "new": "2019"
+      },
+      {
+        "field": "institution",
+        "old": "Capgemini",
+        "new": "Capgemini Research Institute"
+      }
+    ],
+    "source_url": "https://ai4si.gzs.si/uploads/Rcrl0V4A/AI-in-manufacturing-operations.pdf",
+    "comment": "Report PDF carries '(c)2019 Capgemini', published by the Capgemini Research Institute; all seven authors confirmed from the author bios. Year 2021 is wrong. Consider adding url field (Capgemini research library: https://www.capgemini.com/us-en/insights/research-library/manufacturing-operations-needs-to-embrace-ai) and updating the citation key."
+  },
+  {
+    "key": "Cai2026SpatialFloodSupplyDemand",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found. Searches: (1) exact title in quotes + 'Beijing Urban Climate'; (2) 'Cai Zhao emergency supply demand 23-7 rainstorm Beijing Urban Climate 2026'; (3) the DOI string \"10.1016/j.uclim.2025.102740\" in quotes. None returned this article (only unrelated flood/relief papers). Possibly fabricated or with garbled metadata: authors must supply a verifiable source (ScienceDirect page) or remove."
+  },
+  {
+    "key": "Cantini2025PromptBasedLargeLanguageDisasterMonitoring",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://rcantini.github.io/publication/osnem_llm-disaster_2024",
+    "comment": "Title, journal Online Social Networks and Media, vol 45 confirmed on first author's publication page (which labels it 2024, likely the online year; vol 45 is the 2025 volume). Author list, article number 100295 and DOI not shown on that page; not independently confirmed."
+  },
+  {
+    "key": "Cao2023AIResilience",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://opus.lib.uts.edu.au/handle/10453/170502",
+    "comment": "Author, title, journal, 15(3), 231-246, 2023, DOI all match UTS repository."
+  },
+  {
+    "key": "Charles2016DesigningNetwork",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://econpapers.repec.org/RePEc:hal:journl:hal-01532132",
+    "comment": "All four authors, title, JOM 47-48(1), 58-70, 2016, DOI match EconPapers/HAL."
+  },
+  {
+    "key": "Chen2026FloodHumanitarianDataDriven",
+    "status": "NOT-FOUND",
+    "changes": [],
+    "source_url": "",
+    "comment": "No record found. Searches: (1) exact title in quotes + 'data-driven stochastic framework Chen Li'; (2) 'Chen Ranran Li Jian humanitarian logistics flood risk stochastic Computers & Industrial Engineering 2026'; (3) the DOI string \"10.1016/j.cie.2026.112180\" in quotes. No hit for this title, authors or DOI. Possibly fabricated or very recent/garbled: authors must supply a verifiable source or remove."
+  },
+  {
+    "key": "Choudhury2023TheOpportunities",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v175y2023ics1366554523001278.html",
+    "comment": "Authors, title, TRE vol 175, 2023, DOI match."
+  },
+  {
+    "key": "Collar2023UniqueRegion",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/4OnewmN7",
+    "comment": "Title, both authors, J. Environ. Manage., 2023, article 117956 match (PubMed ID 37080093). Volume 339 not shown on source."
+  },
+  {
+    "key": "Comes2024AIDecisions",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/4LRjYDK9",
+    "comment": "Author, title, journal, issue 1, 2024, DOI match. Volume 26 and article 12 not shown on source."
+  },
+  {
+    "key": "Dahu2023TheReview",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/gam/jijerp/v20y2023i5p4298-d1083097.html",
+    "comment": "All six authors in order, title, IJERPH 20(5) 4298, Feb 2023 match; DOI consistent (PMC10002247)."
+  },
+  {
+    "key": "Davis2013InventoryEfforts",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://econpapers.repec.org/RePEc:eee:proeco:v:141:y:2013:i:2:p:561-573",
+    "comment": "All fields match, including DOI."
+  },
+  {
+    "key": "DeivaGanesh2022FutureReview",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://www.aminer.org/pub/62d1703c5aee126c0fd94604/future-of-artificial-intelligence-and-its-influence-on-supply-chain-risk-management",
+    "comment": "Exact title found in search results (AMiner, CAS catalogue), but record pages were blocked; volume 169, article 108206 and DOI not independently confirmed. Low risk."
+  },
+  {
+    "key": "Diaz-Robles2008AChile",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://investigadores.anid.cl//en/public_search/work?id=70882",
+    "comment": "All seven authors, title, Atmos. Environ. 42(35), 8331-8340, 2008, DOI match."
+  },
+  {
+    "key": "Ding2022AnManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://www.bohrium.com/paper-details/an-internet-of-things-based-scalable-framework-for-disaster-data-management/813166832742563841-77580",
+    "comment": "Title, four authors, journal, DOI match; source gives 2021-12-01 (online date). Vol 3(2) 136-152, 2022 not shown on source."
+  },
+  {
+    "key": "Dutta2020BlockchainOpportunities",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://scholars.lib.ntu.edu.tw/handle/123456789/612175",
+    "comment": "Authors, title, TRE vol 142, 2020, DOI match."
+  },
+  {
+    "key": "EastonCalabria2025AnticipatoryLimitations",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://link.altmetric.com/details/84742131/chapter/84742134/citations",
+    "comment": "Title, journal Disasters, published (online) September 2024; sole author and DOI 10.1111/disa.12654 confirmed at https://fic.tufts.edu/?p=16429. Volume 49 issue 1 / e12654 (2025 issue) not shown on sources."
+  },
+  {
+    "key": "Fan2021DisasterManagement",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/ininma/v56y2021ics0268401219302956.html",
+    "comment": "Authors, title, IJIM vol 56, 2021, DOI match."
+  },
+  {
+    "key": "Farazmehr2023LocatingReview",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://libmast.utm.my/Record/doaj.art-dc24cde1c96f4e4d847f6257a2dff67a",
+    "comment": "Title, both authors, Progress in Disaster Science, Oct 2023 match. Vol 19 / article 100292 / DOI not shown on source."
+  },
+  {
+    "key": "Fei2022DemandTheory",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/soceps/v84y2022ics0038012122001811.html",
+    "comment": "Authors, title, SEPS vol 84, 2022, DOI match."
+  },
+  {
+    "key": "Feizabadi2022MachinePerformance",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://dspace.mit.edu/handle/1721.1/164301?show=full",
+    "comment": "Author, title, 25(2) 119-142, 2022, DOI match (online 4 Aug 2020)."
+  },
+  {
+    "key": "Fuqua2022CommodityPlanning",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://impact.ornl.gov/en/publications/commodity-demand-forecasting-using-modulated-rank-reduction-for-h/",
+    "comment": "Authors, title, ESWA 206, 117753, 15 Nov 2022, DOI match."
+  },
+  {
+    "key": "Fussell2015TheKatrina",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://www.ovid.com/journals/absc/pdf/10.1177/0002764215591181~the-long-term-recovery-of-new-orleans-population-after",
+    "comment": "All fields match."
+  },
+  {
+    "key": "Ghaffarian2023ExplainableFutures",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://discovery.ucl.ac.uk/10182264/1/1-s2.0-S2212420923006039-main.pdf",
+    "comment": "Authors, title, IJDRR 98, 104123, 2023, DOI match (publisher PDF)."
+  },
+  {
+    "key": "Ghavamifar2022ALogistics",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v167y2022ics1366554522002939.html",
+    "comment": "Authors, title, TRE 167, 2022, DOI match."
+  },
+  {
+    "key": "Ghouri2023AnDevelopment",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/jbrese/v164y2023ics0148296323003387.html",
+    "comment": "All five authors, title, JBR 164, 2023, DOI match."
+  },
+  {
+    "key": "Goel2023TheInformation",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://link.springer.com/content/pdf/10.1007/s41324-022-00494-x.pdf",
+    "comment": "Authors, title, vol 31, 275-285, 2023, DOI match (publisher PDF; online Nov 2022)."
+  },
+  {
+    "key": "Guha2022ArtificialReview",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ouci.dntb.gov.ua/works/42bxjOm4",
+    "comment": "Authors, title, IJDRR, 103276, 2022, DOI match. Volume 81 not shown on source."
+  },
+  {
+    "key": "Gupta2022ArtificialOperations",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://research.em-lyon.com/esploro/outputs/journalArticle/Artificial-intelligence-and-cloud-based-Collaborative-Platforms/9917342709453",
+    "comment": "All five authors, title, IJPE, 2022, DOI match. Vol 254 not shown on source."
+  },
+  {
+    "key": "Habiyambere2018ForecastingAnalysis",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/plo/pone00/0201341.html",
+    "comment": "All 14 authors in order, title, PLOS ONE 13(9), Sept 2018, DOI match."
+  },
+  {
+    "key": "Hassija2024InterpretingIntelligence",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://napier-repository.worktribe.com/output/3487848/interpreting-black-box-models-a-review-on-explainable-artificial-intelligence",
+    "comment": "All ten authors, title, 16(1) 45-74, 2024, DOI match."
+  },
+  {
+    "key": "Hnamte2023DependableApproach",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://doaj.org/article/86e10eb136a749649cef7120248688b7",
+    "comment": "Authors, title, Telematics and Informatics Reports 11, 100077, Sept 2023 match. DOI not shown on source."
+  },
+  {
+    "key": "Holguin-Veras2012ImmediateKatrina",
+    "status": "EXISTS-OK",
+    "changes": [],
+    "source_url": "https://itspubs.ucdavis.edu/publication_detail.php?id=2363",
+    "comment": "Taken from the earlier verification in literature_verification.md (same session): authors, title, pages 117-131, 2012 and DOI match UC Davis ITS record; vol 13(2) confirmed via a same-issue article PDF (https://par.nsf.gov/servlets/purl/10057045). No new search spent."
+  }
+]

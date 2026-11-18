@@ -1,0 +1,370 @@
+[
+  {
+    "key": "Dutta2020BlockchainOpportunities",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "EastonCalabria2025AnticipatoryLimitations",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "https://fic.tufts.edu/?p=16429",
+    "comment": "The author (Easton-Calabria, sole author), journal (Disasters) and DOI 10.1111/disa.12654 match. Volume 49, issue 1 and article e12654 were not confirmed because the Wiley page was not opened."
+  },
+  {
+    "key": "Edwards2023UsePerspective",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "year",
+        "old": "2023",
+        "new": "2024"
+      },
+      {
+        "field": "volume",
+        "old": "(missing)",
+        "new": "335"
+      },
+      {
+        "field": "number",
+        "old": "(missing)",
+        "new": "3"
+      },
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "1645--1667"
+      }
+    ],
+    "source_url": "https://ideas.repec.org/a/spr/annopr/v335y2024i3d10.1007_s10479-023-05307-4.html",
+    "comment": "The entry cited the online-first version with no volume or pages. It now has an issue: Ann Oper Res 335(3), 1645-1667, 2024. Old year was 2023. Authors match."
+  },
+  {
+    "key": "Fan2021DisasterManagement",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Farazmehr2023LocatingReview",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Fei2022DemandTheory",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Feizabadi2022MachinePerformance",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Feng2018ImprovingInfrastructure",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S2212420918304795",
+    "comment": "The paper exists in IJDRR (ScienceDirect PII S2212420918304795), but the record page could not be opened. The author field 'Feng, Yu and Xiang-Yang, Li' looks like a given/family swap (the same Crossref pattern seen for Jiang-ning2021). The group's related paper is cited elsewhere as 'Yu, F., ... Li, X.Y.' (https://journal.hep.com.cn/ijodrs/EN/10.1007/s13753-024-00602-5), so the likely correct form is 'Yu, Feng and Li, Xiang-Yang'. Confirm on ScienceDirect before changing."
+  },
+  {
+    "key": "Fuqua2022CommodityPlanning",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Fussell2015TheKatrina",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Garcia2023SupportingAI",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/bpj/johsem/v20y2023i2p97-131n1003.html",
+    "comment": "Authors, year, volume 20, issue 2, pages 97-131 and DOI match."
+  },
+  {
+    "key": "Geng2024ResourceManagementReview",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/spr/annopr/v343y2024i1d10.1007_s10479-024-06324-7.html",
+    "comment": "Matches. Optional: add number = {1} (issue 1)."
+  },
+  {
+    "key": "Ghaffarian2023ExplainableFutures",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Ghavamifar2022ALogistics",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Ghouri2023AnDevelopment",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Gningue2026DigitalisationSupplyChainRisks",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "",
+    "comment": "note = {Advance online publication} would print in the reference. Elsevier style for early-view papers is 'in press' or the DOI alone, so remove the note. No authoritative record was found by title search (Emerald page not reached). Authors, year and the DOI 10.1108/jhlscm-05-2025-0068 are UNVERIFIED. Also, Emerald DOIs are usually upper-case JHLSCM (DOIs are case-insensitive)."
+  },
+  {
+    "key": "Goel2023TheInformation",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Gralla2026IvoryTowerField",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "",
+    "comment": "note = {Advance online publication} would print, so remove it. Title search found no record of this EJOR paper. Authors, year and DOI 10.1016/j.ejor.2026.05.040 are UNVERIFIED and the authors must confirm the paper exists before keeping it."
+  },
+  {
+    "key": "Guha2022ArtificialReview",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Gunkel2025MachineLearningHumanMobility",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://elib.dlr.de/212904/2/1-s2.0-S259006172500002X-main.pdf",
+    "comment": "The publisher PDF byline reads Gunkel, Mühlhäuser, Tundis, which matches the entry; the DLR landing page lists a different order. Vol 25, article 100405, 2025, DOI match."
+  },
+  {
+    "key": "Gupta2022ArtificialOperations",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Habiyambere2018ForecastingAnalysis",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Han2024EnhancedEarthquakeImpact",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S2212420924003364",
+    "comment": "Authors, IJDRR 109, 104574, 2024, DOI match. A preprint is also on arXiv (2406.15477); the journal version is correctly cited."
+  },
+  {
+    "key": "Hasan2024SporadicKNNForecasting",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://repository.arizona.edu/handle/10150/670680",
+    "comment": "Authors, EAAI 129, 107633, DOI match."
+  },
+  {
+    "key": "Hassija2024InterpretingIntelligence",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Hnamte2023DependableApproach",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Holguin-Veras2012ImmediateKatrina",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Hosseinpourtehrani2022PreconditionsServices",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Hu2021PredictionDisasters",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "booktitle",
+        "old": "2021 IEEE IAS Industrial and Commercial Power System Asia, I and CPS Asia 2021",
+        "new": "2021 IEEE IAS Industrial and Commercial Power System Asia (I\\&CPS Asia)"
+      }
+    ],
+    "source_url": "https://ieeexplore.ieee.org/document/9621629/",
+    "comment": "The IEEE Xplore document 9621629 exists and matches the DOI, but its metadata page returned no content, so authors and pages 1154-1159 are not confirmed. The booktitle 'I and CPS' is a mangled ampersand; the correct acronym is I&CPS. The fix is cosmetic."
+  },
+  {
+    "key": "Hu2024MachineLearningSupplierRelief",
+    "status": "OK",
+    "changes": [],
+    "source_url": "https://ideas.repec.org/a/eee/transe/v186y2024ics1366554524001224.html",
+    "comment": "Authors, TRE 186, 2024, DOI match."
+  },
+  {
+    "key": "Huang2020MedicalMethod",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Huang2021AManagement",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "entry type",
+        "old": "@misc",
+        "new": "@article"
+      },
+      {
+        "field": "booktitle",
+        "old": "International Journal of Disaster Risk Reduction",
+        "new": "(remove; use journal)"
+      },
+      {
+        "field": "journal",
+        "old": "(missing)",
+        "new": "International Journal of Disaster Risk Reduction"
+      },
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "102412"
+      }
+    ],
+    "source_url": "https://research.polyu.edu.hk/en/publications/a-systematic-review-of-prediction-methods-for-emergency-managemen/",
+    "comment": "This journal article was coded as @misc with booktitle, so the journal name may not print. Authors, year 2021, volume 62 and DOI match. The article number 102412 was missing."
+  },
+  {
+    "key": "Iazzolino2025PredictionDataCuration",
+    "status": "PROBLEM",
+    "changes": [],
+    "source_url": "https://research.manchester.ac.uk/en/publications/prediction-and-data-curation-in-digital-humanitarianism/",
+    "comment": "Authors, Big Data & Society 12(3), 2025 and DOI match. The article number/pages is missing (SAGE BD&S uses e-locators); sources opened did not show it, so it was not added. Fill it from the SAGE page."
+  },
+  {
+    "key": "Indra2023AnCGDNN",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Ivic2019ARTIFICIALMANAGEMENT",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed. Also: the title is in ALL CAPS inside double braces, so it will print in all caps. Consider sentence case: 'Artificial intelligence and geospatial analysis in disaster management'."
+  },
+  {
+    "key": "Jamei2022CombinedSelection",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Jia2023DeepOpportunities",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Jiang-ning2021ForecastingMethodology",
+    "status": "CORRECTED",
+    "changes": [
+      {
+        "field": "author",
+        "old": "Jiang-ning, Li and Xian-liang, Shi and An-qiang, Huang and Ze-fang, He and Yu-xuan, Kang and Dong, Li",
+        "new": "Li, Jiang-ning and Shi, Xian-liang and Huang, An-qiang and He, Ze-fang and Kang, Yu-xuan and Li, Dong"
+      },
+      {
+        "field": "volume",
+        "old": "(missing)",
+        "new": "9"
+      },
+      {
+        "field": "number",
+        "old": "(missing)",
+        "new": "3"
+      },
+      {
+        "field": "pages",
+        "old": "(missing)",
+        "new": "2285--2295"
+      },
+      {
+        "field": "year",
+        "old": "2021",
+        "new": "2023"
+      }
+    ],
+    "source_url": "https://link.springer.com/article/10.1007/s40747-021-00289-x",
+    "comment": "Crossref has given and family names swapped. The corresponding-author emails (hezefang@, aqhuang@) confirm the surnames are He and Huang, so all names were swapped back. The entry had no volume or pages; the issue version is Complex Intell Syst 9(3), 2285-2295 (2023), online 2 Mar 2021. Year 2023 follows the Springer 'Cite this article'. Keeping 2021 is acceptable if the volume is added. The cite key will need updating if the authors want it to reflect Li."
+  },
+  {
+    "key": "Jiang2019EmergencyEarthquakes",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "https://www.sciencedirect.com/science/article/pii/S2405896319311590",
+    "comment": "The title appears on ScienceDirect (IFAC-PapersOnLine) in search results, but the page could not be opened. Authors (initials only), 52(13), 773-777 and DOI are not confirmed. Full first names would be preferable."
+  },
+  {
+    "key": "Jozaei2020UsingAustralia",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Juang2017ApplicationTaiwan",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  },
+  {
+    "key": "Kankanamge2021PublicBrisbane",
+    "status": "UNVERIFIED",
+    "changes": [],
+    "source_url": "",
+    "comment": "Not checked: shared web-search budget ran out before this entry was reached. No metadata changed."
+  }
+]

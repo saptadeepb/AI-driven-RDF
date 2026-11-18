@@ -1,0 +1,30 @@
+[
+ {
+  "key": "Jiang2019EmergencyEarthquakes",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "https://www.sciencedirect.com/science/article/pii/S2405896319311590",
+  "comment": "Confirmed on publisher page: IFAC-PapersOnLine 52(13), 773-777 (2019), DOI 10.1016/j.ifacol.2019.11.209; matches as cited."
+ },
+ {
+  "key": "Kong2026GreyEmergencyMaterial",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "https://www.emerald.com/gs",
+  "comment": "Listed by Emerald as an online-first article in Grey Systems: Theory and Application (authors Dekun Kong and Wenguang Yang), DOI 10.1108/GS-08-2025-0106; no volume or pages assigned yet."
+ },
+ {
+  "key": "Tetteh2025DroneGhanaBarriers",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "https://www.emerald.com/jhlscm",
+  "comment": "Confirmed on Emerald article page: Journal of Humanitarian Logistics and Supply Chain Management 15(4), 391-413 (2025); matches as cited."
+ },
+ {
+  "key": "Whyte2026CentaurResponders",
+  "status": "EXISTS-OK",
+  "changes": [],
+  "source_url": "https://onlinelibrary.wiley.com/doi/10.1111/disa.70054",
+  "comment": "Confirmed on PubMed and Wiley Online Library: Disasters 50(3), e70054 (2026); matches as cited."
+ }
+]

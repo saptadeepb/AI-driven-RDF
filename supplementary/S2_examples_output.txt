@@ -1,0 +1,92 @@
+Use-case A: flood studies, method families employed (multi-label)
+mf_statistical    2
+mf_ml             4
+mf_dl             5
+mf_knowledge      3
+mf_optsim         2
+mf_genai          0
+
+========================================================================
+Use-case A: flood studies
+------------------------------------------------------------------------
+study_id  first_author year        data_source performance_evidence      deployment_status
+    S028          Shao 2020 Historical records         Not reported           Not reported
+    S030           Lin 2020 Historical records         Not reported           Not reported
+    S055         Indra 2023 Historical records         Not reported           Not reported
+    S079     Kundu, S. 2026       Not reported         Not reported           Not reported
+    S080       Cai, X. 2026              Mixed     Qualitative/none   Real-data case study
+    S100      Chen, R. 2026              Mixed  Single-model metric   Real-data case study
+    S107      Situ, Z. 2025              Mixed     Qualitative/none Synthetic/illustrative
+    S108    Liu, C.-F. 2024       Not reported         Not reported           Not reported
+    S110 ALBarqawi, A. 2026       Not reported         Not reported           Not reported
+    S113      Yang, P. 2025       Not reported         Not reported           Not reported
+rows: 10
+
+========================================================================
+Use-case A (variant): studies using social-media inputs
+------------------------------------------------------------------------
+study_id first_author year        disaster_type  performance_evidence
+    S067       Powers 2023    Hurricane/Cyclone          Not reported
+    S104      Han, J. 2024           Earthquake          Not reported
+    S105     Wang, C. 2024           Earthquake          Not reported
+    S109     Zhou, W. 2025 Multi-hazard/General Comparative benchmark
+rows: 4
+
+========================================================================
+Use-case B: comparative benchmarks
+------------------------------------------------------------------------
+study_id    first_author year         disaster_type                                                            metric_reported
+    S033           Huang 2020  Multi-hazard/General                             MAPE (and RMSE/MAE/R on a secondary ED series)
+    S038         Vollmer 2021  Multi-hazard/General                                                               MAE and MAPE
+    S040          Nguyen 2022     Hurricane/Cyclone                                                Simple Matching Coefficient
+    S069          Biswas 2024            Earthquake                                            MAE, MSE, RMSE, R2, RMSLE, MAPE
+    S075           Zheng 2021  Multi-hazard/General                                               Not reported in the abstract
+    S082        Wang, Y. 2026            Earthquake Mean square error ratio (posterior error test); average relative error (%)
+    S085     Kjaerum, A. 2025 Conflict/Displacement              MAPE / mean absolute margin of error; classification accuracy
+    S086     Sedhain, S. 2025     Hurricane/Cyclone                    Probability of detection (POD); false alarm ratio (FAR)
+    S089  Nikseresht, A. 2025          Not reported                                                    RMSE (improvement only)
+    S090    Zhang, G. P. 2023          Not reported           Six forecasting performance measures (not named in the abstract)
+    S109        Zhou, W. 2025  Multi-hazard/General                                Precision; Recall; F1-score; macro accuracy
+    S112 Alshayeb, M. J. 2024     Hurricane/Cyclone                                                         Accuracy; F1-score
+rows: 12
+
+========================================================================
+Use-case C: explicit uncertainty representation
+------------------------------------------------------------------------
+study_id  first_author year           disaster_type
+    S002          Sheu 2007              Earthquake
+    S005          Sheu 2010    Multi-hazard/General
+    S006        Taskin 2011       Hurricane/Cyclone
+    S007           Sun 2013    Multi-hazard/General
+    S008         Davis 2013    Multi-hazard/General
+    S012       L. Zhan 2016       Hurricane/Cyclone
+    S014       Charles 2016    Multi-hazard/General
+    S021      Battarra 2018              Earthquake
+    S026        Rajesh 2019 Drought/Food insecurity
+    S032       Yariyan 2020              Earthquake
+    S041         Liang 2022    Multi-hazard/General
+    S045           Fei 2022    Multi-hazard/General
+    S048     Boroumand 2022              Earthquake
+    S053 Mota-Santiago 2023              Earthquake
+    S055         Indra 2023                   Flood
+    S072        Taskin 2010       Hurricane/Cyclone
+    S074          Shao 2021    Multi-hazard/General
+    S075         Zheng 2021    Multi-hazard/General
+    S081      Kong, D. 2026    Multi-hazard/General
+    S082      Wang, Y. 2026              Earthquake
+    S085   Kjaerum, A. 2025   Conflict/Displacement
+    S097 Yilmaz, O. F. 2025    Multi-hazard/General
+    S098        Hu, S. 2024    Multi-hazard/General
+    S100      Chen, R. 2026                   Flood
+    S107      Situ, Z. 2025                   Flood
+rows: 25
+
+========================================================================
+Use-case D: operational deployment
+------------------------------------------------------------------------
+study_id first_author year                                          journal         disaster_type
+    S084     Nair, R. 2023                                      AI Magazine Conflict/Displacement
+    S085  Kjaerum, A. 2025                                  Data and Policy Conflict/Displacement
+    S086  Sedhain, S. 2025 International Journal of Disaster Risk Reduction     Hurricane/Cyclone
+rows: 3
+
